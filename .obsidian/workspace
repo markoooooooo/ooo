@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Journal/2022/July/2022-07-04.md",
+            "file": "Festivals.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journal/2022/July/2022-07-04.md",
+                "file": "Festivals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Journal/2022/July/2022-07-04.md",
+                "file": "Festivals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,15 +112,15 @@
   },
   "active": "d7b8087adee08453",
   "lastOpenFiles": [
+    "Festivals.md",
+    "Qualia.md",
+    "Accounts.md",
+    "Untitled.md",
+    "Valence.md",
+    "To do.md",
     "Journal/2022/July/2022-07-04.md",
     "Supplements.md",
     "Journal/2022/07/2022-07-04.md",
-    "Journal/2022-07-04.md",
-    "Untitled.md",
-    "To do.md",
-    "Test/Untitled/Untitled.md",
-    "Welcome.md",
-    "History.md",
-    "Accounts.md"
+    "Journal/2022-07-04.md"
   ]
 }
