@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1b67e6476d9db284",
+        "id": "d7b8087adee08453",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Journal/2022/July/2022-07-04.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Journal/2022/July/2022-07-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,6 +77,29 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6bb83c37a23812dc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Journal/2022/July/2022-07-04.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c55cfc8a46761c97",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           }
@@ -82,17 +110,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1b67e6476d9db284",
+  "active": "d7b8087adee08453",
   "lastOpenFiles": [
+    "Journal/2022/July/2022-07-04.md",
+    "Journal/2022/07/2022-07-04.md",
+    "Journal/2022-07-04.md",
+    "Untitled.md",
     "To do.md",
     "Test/Untitled/Untitled.md",
     "Welcome.md",
     "History.md",
     "Accounts.md",
-    "Festivals.md",
-    "Supplements.md",
-    "Stihia.md",
-    "home.md",
-    "test folder/Untitled.md"
+    "Festivals.md"
   ]
 }
