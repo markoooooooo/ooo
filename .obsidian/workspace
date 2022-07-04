@@ -7,12 +7,8 @@
         "id": "1b67e6476d9db284",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "History.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "History.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +84,15 @@
   },
   "active": "1b67e6476d9db284",
   "lastOpenFiles": [
-    "History.md",
+    "Test/Untitled/Untitled.md",
     "Welcome.md",
+    "History.md",
     "Accounts.md",
     "Festivals.md",
     "Supplements.md",
     "Stihia.md",
     "home.md",
     "test folder/Untitled.md",
-    "index.md",
-    "test.md"
+    "index.md"
   ]
 }
