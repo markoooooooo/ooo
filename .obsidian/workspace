@@ -7,7 +7,7 @@
         "id": "1b67e6476d9db284",
         "type": "leaf",
         "state": {
-          "type": "empty",
+          "type": "graph",
           "state": {}
         }
       }
@@ -84,6 +84,7 @@
   },
   "active": "1b67e6476d9db284",
   "lastOpenFiles": [
+    "To do.md",
     "Test/Untitled/Untitled.md",
     "Welcome.md",
     "History.md",
@@ -92,7 +93,6 @@
     "Supplements.md",
     "Stihia.md",
     "home.md",
-    "test folder/Untitled.md",
-    "index.md"
+    "test folder/Untitled.md"
   ]
 }
