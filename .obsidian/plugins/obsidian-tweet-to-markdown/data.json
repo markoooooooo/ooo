@@ -1,0 +1,23 @@
+{
+  "bearerToken": null,
+  "noteLocation": "",
+  "downloadAssets": true,
+  "imageEmbedStyle": "markdown",
+  "assetLocation": "",
+  "filename": null,
+  "tweetCompleteAction": "newTab",
+  "tweetLinkFetch": false,
+  "embedMethod": "obsidian",
+  "frontmatter": true,
+  "tags": [],
+  "cssclass": "",
+  "freeformFrontmatter": [],
+  "avatars": true,
+  "condensedThread": false,
+  "textOnly": false,
+  "includeImages": true,
+  "includeLinks": true,
+  "includeDate": true,
+  "dateFormat": "LLL",
+  "dateLocale": "en"
+}

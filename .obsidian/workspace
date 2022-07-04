@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "34c6de10a9368770",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b67e6476d9db284",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Accounts.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "30ada932c0de9072",
+    "type": "split",
+    "children": [
+      {
+        "id": "229d2799d6a4385c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d3f9bdd4b3f01399",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "96171e8f1a9eec11",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "663c51e872648b39",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab2cdd3c346b84e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39f9b5aa9a6d114e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Accounts.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1b67e6476d9db284",
+  "lastOpenFiles": [
+    "Accounts.md",
+    "History.md",
+    "Festivals.md",
+    "Welcome.md",
+    "Supplements.md",
+    "Stihia.md",
+    "home.md",
+    "test folder/Untitled.md",
+    "index.md",
+    "test.md"
+  ]
+}
