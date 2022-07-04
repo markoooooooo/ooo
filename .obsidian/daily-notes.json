@@ -1,5 +1,5 @@
 {
   "folder": "Journal",
   "autorun": true,
-  "format": "moment().format(\"[Daily Journal of] dddd\");"
+  "format": "YYYY/MMMM/YYYY-MM-DD"
 }
