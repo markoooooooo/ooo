@@ -1,0 +1,13 @@
+## People
+- Frank Yang
+- Siddhartha
+- Evan Thompson
+- S. N. Goenka
+- Daniel Ingram
+- Frank Yates Culadasa
+- Shinzen Young
+- Michael Taft
+- Roger Thisdell
+- Dhammarato
+- Evan Thompson
+- Sam Harris
