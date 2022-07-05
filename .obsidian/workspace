@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "People.md",
+            "file": "History.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "People.md",
+                "file": "History.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "People.md",
+                "file": "History.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,15 +113,15 @@
   },
   "active": "d7b8087adee08453",
   "lastOpenFiles": [
+    "History.md",
+    "head.jpeg",
+    "Daily notes/2022/July/2022-07-04.md",
+    "Daily notes/2022/July/2022-07-05.md",
+    "Qualia.md",
     "People.md",
     "Meditation.md",
-    "Journal/2022/July/2022-07-05.md",
     "Welcome.md",
     "Festivals.md",
-    "Qualia.md",
-    "Accounts.md",
-    "Untitled.md",
-    "Valence.md",
-    "To do.md"
+    "Accounts.md"
   ]
 }
