@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "History.md",
+            "file": "Daily notes/2022/July/2022-07-05.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "History.md",
+                "file": "Daily notes/2022/July/2022-07-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "History.md",
+                "file": "Daily notes/2022/July/2022-07-05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,15 +113,15 @@
   },
   "active": "d7b8087adee08453",
   "lastOpenFiles": [
-    "History.md",
-    "head.jpeg",
-    "Daily notes/2022/July/2022-07-04.md",
     "Daily notes/2022/July/2022-07-05.md",
-    "Qualia.md",
-    "People.md",
-    "Meditation.md",
+    "Templates/Untitled 1.md",
+    "Daily notes/2022/July/2022-07-04.md",
     "Welcome.md",
+    "Untitled.md",
+    "Supplements.md",
     "Festivals.md",
-    "Accounts.md"
+    "To do.md",
+    "Valence.md",
+    "History.md"
   ]
 }
