@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily notes/2022/July/2022-07-05.md",
+            "file": "Templates/Template for Daily notes.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily notes/2022/July/2022-07-05.md",
+                "file": "Templates/Template for Daily notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily notes/2022/July/2022-07-05.md",
+                "file": "Templates/Template for Daily notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -103,6 +103,14 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "f3950d31bc5c4a49",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ]
       }
@@ -113,15 +121,15 @@
   },
   "active": "d7b8087adee08453",
   "lastOpenFiles": [
+    "Templates/Template for Daily notes.md",
     "Daily notes/2022/July/2022-07-05.md",
-    "Templates/Untitled 1.md",
+    "Daily notes/2022-07-05.md",
     "Daily notes/2022/July/2022-07-04.md",
     "Welcome.md",
     "Untitled.md",
     "Supplements.md",
     "Festivals.md",
     "To do.md",
-    "Valence.md",
-    "History.md"
+    "Valence.md"
   ]
 }
