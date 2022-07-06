@@ -29,13 +29,15 @@
 			- Experience
 			- Lots of physical sensation, shaking or heat, maybe your hairs stand up due to the noreprheneprine. In the background happiness or joy, so a positive state.
 			- Chaotic center of attention and smooth background
+			- Only once you're skilled you can see the suka, usually don't notice it. Unless you're on of the people who only experience the suka without the piti.
 		- ### 2nd Jhana
 			- Piti reduced, Suka in the foreground.
 			- Much less physical activity.
 			- Just happy for no reason, but much calmer.
 			- Speaks of inner tranquility.
 			- Background physical stuff that's mostly emotional.
-			- Fairly smooth center of attention and a little bit of chaotic background.
+			- Fairly smooth center of attention and a little bit of chaotic background piti, a lil bit of roughness.
+			- Piti far enough in the background so not paying much attention to it.
 		- ### 3rd Jhana
 			- You quiet the piti until it disappears.
 			- Just left with suka, not so much joy or happiness, just contentment.
@@ -43,6 +45,7 @@
 			- Very still because all of the piti is gone.
 			- Still pleasant but much calmer.
 			- Even more smooth center of attention and no chaotic background.
+			- The body is available. Can notice it and not lose the jhana. But your body is still.
 		- ### 4th Jhana
 			- Beyond pleasure and pain.
 			- Contains mindfulness fully purified by [[equanimity]].
@@ -52,23 +55,31 @@
 			- Still aware of your body.
 			- According to the suttas you can drench, steep, satturate and suffuse your body with the piti and suka or the suka free from piti or your pure bright mind in the 4th.
 			- The subjectively pleasant aspect is gone and it's gotten subjectively neutral.
+			- Very smooth. Body further away.
+			- People notice slumping over.
 - ## Formless Jhanas (5-8)
 	- Called the immaterial states, 5th to 8th.
 	- Really different from the first 4.
 	- Passing entirely beyond all bodily sensations.
 	- Concentrated enough on what you're doing to enter and sustain these immaterial states that you're unaware of your body. The catch is that if you think of your body to check whether you still feel it then you will become aware and feel your body. It's only in retrospect that you can realize you were unaware of your body.
+	- There is no background, only the object.
 	- ### 5th Jhana
 		- #### Sphere of infinite space
 		- The word translated as sphere is actually the same word used for eye and sight AND ear and sound. So sensing or experiencing infinite or limitless space.
 		- Getting there you is you take something you can imaginatively expand without limits and just focus on the expansion until suddenly vast empty space appears before you.
 		- Like you walked up to the edge of the grand canyon and there's no bottom or other side.
+		- Tiny sense of observer, more a point of observation.
+			- Probably not noticable unless skilled.
+			- When you step back to examine what you're examining.
 	- ### 6th Jhana
 		- #### The realm or experience of limitless consciousness
 		- Getting there it's necessary to realize you can't be aware of a limitless space with a limited consciousness. So shift your attention from the space to the consciousness of the space, become conscious of your consciousness. If you do it right, you will feel like you absord into the space and you are now a limitless consciousness.
+		- No difference between observer and the observed.
 	- ### 7th Jhana
 		- #### The experience of no-thingness or nothingness.
 		- An experience of nothing. You take the top off the cookie jar and there's nothing, also no cookie jar.
 		- Leigh: when on retreat and it's going well can spend 30 minutes there and has done so
+		- Goes back to a very small observer, smaller than in the 5th.
 	- ### 8th Jhana
 		- #### The realm of neither perception nor non perception
 		- Translation of sanya
@@ -78,6 +89,7 @@
 		- Leigh: had to practice a year to before ever once getting and staying in for 30 minutes
 		- Usually get in and fall out after a couple minutes and have to go back to 7 or back to 5. Sometimes once getting in 8 he will go back to 7 after a minute intentionally to get a better 7 so when going back to 8 it's more stable.
 		- By far the quietest and least definitive of what's going on. The mind is sort of in neutral.
+		- Can't observe the observer, can only remember in retrospect. Looking for the observer would lose the jhana immediately because there would be something to perceive.
 
 
 
