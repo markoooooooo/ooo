@@ -1,4 +1,4 @@
-## Jhāna, Neuroscience, and Phenomenological Topology
+## [[Jhana]], Neuroscience, and Phenomenological Topology
 - https://www.youtube.com/watch?v=dGyY7Y-iW4Q
 - People:
 	- [[Andrés Gómez Emilsson]]
