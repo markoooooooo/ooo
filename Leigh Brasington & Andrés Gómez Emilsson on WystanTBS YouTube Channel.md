@@ -1,4 +1,4 @@
-## [[Jhana]], Neuroscience, and Phenomenological Topology
+# [[Jhana]], Neuroscience, and Phenomenological Topology
 - https://www.youtube.com/watch?v=dGyY7Y-iW4Q
 - People:
 	- [[Andrés Gómez Emilsson]]
@@ -8,44 +8,62 @@
 	- WystanTBS
 		- https://www.youtube.com/channel/UCKJW6bx9WItyMmwHniyInrA
 
-## [[Jhanas]]
-- Material Jhanas
+# [[Jhanas]]
+- ## Material Jhanas (1-4)
 	- In the first few jhanas the nucleus cicumbence of the brain is highly active, the nucleus cicumbence is associated with dopamine and generates opioids. Dopamine breaks down int norepinephrine and the symptoms of that are piti.
 		- ### 1st Jhana
-		-  [[Piti]]
-			- Definition: Rapture
+			-  [[Piti]]
+				- Definition: Rapture
 				- [[Leigh Brasington]] prefers to translate as "Glee"
-			- Components:
+				- Components:
 				- Physical
-			- Possible method of action:
-				- Leigh Brasington's guess
+				- Possible method of action:
+					- Leigh Brasington's guess
 					- Dopamine breaking down into norepinephrine
-			- Generates muscle tension
-		- [[Suka]]
-			- Definition: Happiness
-			- Possible method of action:
-				- Leigh Brasington's guess
-					- Opioids
-	- Experience
-		- Lots of physical sensation, shaking or heat, maybe your hairs stand up due to the noreprheneprine. In the background happiness or joy, so a positive state.
-	- ## 2nd Jhana
-		- Piti reduced, Suka in the foreground.
-		- Much less physical activity.
-		- Just happy for no reason, but much calmer.
-		- Speaks of inner tranquility.
-		- Background physical stuff that's mostly emotional.
-	- ## 3rd Jhana
-		- You quiet the piti until it disappears.
-		- Just left with suka, not so much joy or happiness, just contentment.
-		- You are satisfied. Wishlessness.
-		- Very still because all of the piti is gone.
-		- Still pleasant but much calmer.
-	- ## 4th Jhana
-		- Beyond pleasure and pain.
-		- Contains mindfulness fully purified by [[equanimity]].
-		- Emotionally neutral state, not pleasant nor unpleasant.
-		- Very quiet and still. People speak of it as the state of equanimity.
-		- Better coaching cue: to focus on quiet stillness (which focuses you on equanimity, telling people to focus on equanimity can be too vague)
-		- Still aware of your body.
-		- According to the suttas you can drench, steep, satturate and suffuse your body with the piti and suka or the suka free from piti or your pure bright mind in the 4th.
-	-
+				- Generates muscle tension
+			- [[Suka]]
+				- Definition: Happiness
+				- Possible method of action:
+					- Leigh Brasington's guess
+						- Opioids
+			- Experience
+			- Lots of physical sensation, shaking or heat, maybe your hairs stand up due to the noreprheneprine. In the background happiness or joy, so a positive state.
+		- ### 2nd Jhana
+			- Piti reduced, Suka in the foreground.
+			- Much less physical activity.
+			- Just happy for no reason, but much calmer.
+			- Speaks of inner tranquility.
+			- Background physical stuff that's mostly emotional.
+		- ### 3rd Jhana
+			- You quiet the piti until it disappears.
+			- Just left with suka, not so much joy or happiness, just contentment.
+			- You are satisfied. Wishlessness.
+			- Very still because all of the piti is gone.
+			- Still pleasant but much calmer.
+		- ### 4th Jhana
+			- Beyond pleasure and pain.
+			- Contains mindfulness fully purified by [[equanimity]].
+			- Emotionally neutral state, not pleasant nor unpleasant.
+			- Very quiet and still. People speak of it as the state of equanimity.
+			- Better coaching cue: to focus on quiet stillness (which focuses you on equanimity, telling people to focus on equanimity can be too vague)
+			- Still aware of your body.
+			- According to the suttas you can drench, steep, satturate and suffuse your body with the piti and suka or the suka free from piti or your pure bright mind in the 4th.
+- ## Formless Jhanas (5-8)
+	- Called the immaterial states, 5th to 8th.
+	- Really different from the first 4.
+	- Passing entirely beyond all bodily sensations.
+	- Concentrated enough on what you're doing to enter and sustain these immaterial states that you're unaware of your body. The catch is that if you think of your body to check whether you still feel it then you will become aware and feel your body. It's only in retrospect that you can realize you were unaware of your body.
+	- ### 5th Jhana
+		- #### Sphere of infinite space
+		- The word translated as sphere is actually the same word used for eye and sight AND ear and sound. So sensing or experiencing infinite or limitless space.
+		- Getting there you is you take something you can imaginatively expand without limits and just focus on the expansion until suddenly vast empty space appears before you.
+		- Like you walked up to the edge of the grand canyon and there's no bottom or other side.
+	- ### 6th Jhana
+		- #### The realm or experience of limitless consciousness
+		- Getting there it's necessary to realize you can't be aware of a limitless space with a limited consciousness. So shift your attention from the space to the consciousness of the space, become conscious of your consciousness. If you do it right, you will feel like you absord into the space and you are now a limitless consciousness.
+	- ### 7th Jhana
+		- #### The experience of no-thingness or nothingness.
+		- An experience of nothing. You take the top off the cookie jar and there's nothing, also no cookie jar.
+	- ### 8th Jhana
+		- #### The realm of neither perception nor non perception
+		- 
