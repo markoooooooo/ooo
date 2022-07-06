@@ -64,6 +64,16 @@
 	- ### 7th Jhana
 		- #### The experience of no-thingness or nothingness.
 		- An experience of nothing. You take the top off the cookie jar and there's nothing, also no cookie jar.
+		- Leigh: when on retreat and it's going well can spend 30 minutes there and has done so
 	- ### 8th Jhana
 		- #### The realm of neither perception nor non perception
-		- 
+		- Translation of sanya
+		- Neither conceptualizing nor not conceptualizing the experience
+		- Not possible to describe but possible to know when you're in it
+		- Another strange attractor in [[chaos theory]]
+		- Leigh: had to practice a year to before ever once getting and staying in for 30 minutes
+		- Usually get in and fall out after a couple minutes and have to go back to 7 or back to 5. Sometimes once getting in 8 he will go back to 7 after a minute intentionally to get a better 7 so when going back to 8 it's more stable.
+		- By far the quietest and least definitive of what's going on. The mind is sort of in neutral.
+
+
+
