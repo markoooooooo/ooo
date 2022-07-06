@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Leigh Brasington & Andrés Gómez Emilsson on WystanTBS YouTube Channel.md",
+            "file": "Accounts.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leigh Brasington & Andrés Gómez Emilsson on WystanTBS YouTube Channel.md",
+                "file": "Accounts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leigh Brasington & Andrés Gómez Emilsson on WystanTBS YouTube Channel.md",
+                "file": "Accounts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,23 +113,24 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "d7b8087adee08453",
   "lastOpenFiles": [
+    "Accounts.md",
+    "Festivals.md",
+    "head.jpeg",
+    "History.md",
     "Leigh Brasington & Andrés Gómez Emilsson on WystanTBS YouTube Channel.md",
     "Valence.md",
     "Jhana/Jhana 8.md",
     "Daily notes/2022-07-05.md",
     "Jhana/Jhana 1.md",
-    "Jhana/Jhana 4.md",
-    "Jhana/Jhana 5.md",
-    "Jhana/Jhana 3.md",
-    "Jhana/Jhana 2.md",
-    "Jhana/Jhana 7.md"
+    "Jhana/Jhana 4.md"
   ]
 }
