@@ -28,18 +28,21 @@
 						- Opioids
 			- Experience
 			- Lots of physical sensation, shaking or heat, maybe your hairs stand up due to the noreprheneprine. In the background happiness or joy, so a positive state.
+			- Chaotic center of attention and smooth background
 		- ### 2nd Jhana
 			- Piti reduced, Suka in the foreground.
 			- Much less physical activity.
 			- Just happy for no reason, but much calmer.
 			- Speaks of inner tranquility.
 			- Background physical stuff that's mostly emotional.
+			- Fairly smooth center of attention and a little bit of chaotic background.
 		- ### 3rd Jhana
 			- You quiet the piti until it disappears.
 			- Just left with suka, not so much joy or happiness, just contentment.
 			- You are satisfied. Wishlessness.
 			- Very still because all of the piti is gone.
 			- Still pleasant but much calmer.
+			- Even more smooth center of attention and no chaotic background.
 		- ### 4th Jhana
 			- Beyond pleasure and pain.
 			- Contains mindfulness fully purified by [[equanimity]].
@@ -48,6 +51,7 @@
 			- Better coaching cue: to focus on quiet stillness (which focuses you on equanimity, telling people to focus on equanimity can be too vague)
 			- Still aware of your body.
 			- According to the suttas you can drench, steep, satturate and suffuse your body with the piti and suka or the suka free from piti or your pure bright mind in the 4th.
+			- The subjectively pleasant aspect is gone and it's gotten subjectively neutral.
 - ## Formless Jhanas (5-8)
 	- Called the immaterial states, 5th to 8th.
 	- Really different from the first 4.
