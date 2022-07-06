@@ -7,3 +7,45 @@
 		- Author of [[Right Concentration]]
 	- WystanTBS
 		- https://www.youtube.com/channel/UCKJW6bx9WItyMmwHniyInrA
+
+## [[Jhanas]]
+- Material Jhanas
+	- In the first few jhanas the nucleus cicumbence of the brain is highly active, the nucleus cicumbence is associated with dopamine and generates opioids. Dopamine breaks down int norepinephrine and the symptoms of that are piti.
+		- ### 1st Jhana
+		-  [[Piti]]
+			- Definition: Rapture
+				- [[Leigh Brasington]] prefers to translate as "Glee"
+			- Components:
+				- Physical
+			- Possible method of action:
+				- Leigh Brasington's guess
+					- Dopamine breaking down into norepinephrine
+			- Generates muscle tension
+		- [[Suka]]
+			- Definition: Happiness
+			- Possible method of action:
+				- Leigh Brasington's guess
+					- Opioids
+	- Experience
+		- Lots of physical sensation, shaking or heat, maybe your hairs stand up due to the noreprheneprine. In the background happiness or joy, so a positive state.
+	- ## 2nd Jhana
+		- Piti reduced, Suka in the foreground.
+		- Much less physical activity.
+		- Just happy for no reason, but much calmer.
+		- Speaks of inner tranquility.
+		- Background physical stuff that's mostly emotional.
+	- ## 3rd Jhana
+		- You quiet the piti until it disappears.
+		- Just left with suka, not so much joy or happiness, just contentment.
+		- You are satisfied. Wishlessness.
+		- Very still because all of the piti is gone.
+		- Still pleasant but much calmer.
+	- ## 4th Jhana
+		- Beyond pleasure and pain.
+		- Contains mindfulness fully purified by [[equanimity]].
+		- Emotionally neutral state, not pleasant nor unpleasant.
+		- Very quiet and still. People speak of it as the state of equanimity.
+		- Better coaching cue: to focus on quiet stillness (which focuses you on equanimity, telling people to focus on equanimity can be too vague)
+		- Still aware of your body.
+		- According to the suttas you can drench, steep, satturate and suffuse your body with the piti and suka or the suka free from piti or your pure bright mind in the 4th.
+	-
