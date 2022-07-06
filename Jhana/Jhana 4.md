@@ -10,6 +10,6 @@ Better coaching cue: to focus on quiet stillness (which focuses you on equanimit
 
 Still aware of your body.
 
-According to the suttas you can drench, steep, satturate and suffuse your body with the piti and suka or the suka free from piti or the pure bright mind in the 4th.
+According to the suttas you can drench, steep, satturate and suffuse your body with the piti and suka or the suka free from piti or your pure bright mind in the 4th.
 
 
