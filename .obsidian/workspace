@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Accounts.md",
+            "file": "Optimalism.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accounts.md",
+                "file": "Optimalism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Accounts.md",
+                "file": "Optimalism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,6 +122,7 @@
   },
   "active": "d7b8087adee08453",
   "lastOpenFiles": [
+    "Optimalism.md",
     "Accounts.md",
     "Festivals.md",
     "head.jpeg",
@@ -130,7 +131,6 @@
     "Valence.md",
     "Jhana/Jhana 8.md",
     "Daily notes/2022-07-05.md",
-    "Jhana/Jhana 1.md",
-    "Jhana/Jhana 4.md"
+    "Jhana/Jhana 1.md"
   ]
 }
