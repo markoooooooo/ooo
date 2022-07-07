@@ -1,0 +1,5 @@
+- obsidian vs
+	- roam
+	- notion
+	- logseq
+- 
