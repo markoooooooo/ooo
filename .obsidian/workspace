@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Leigh Brasington & Andrés Gómez Emilsson on WystanTBS YouTube Channel.md",
+            "file": "Travel Hacks.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leigh Brasington & Andrés Gómez Emilsson on WystanTBS YouTube Channel.md",
+                "file": "Travel Hacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leigh Brasington & Andrés Gómez Emilsson on WystanTBS YouTube Channel.md",
+                "file": "Travel Hacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,6 +122,8 @@
   },
   "active": "d7b8087adee08453",
   "lastOpenFiles": [
+    "Travel Hacks.md",
+    "Daily notes/2022-07-08.md",
     "Leigh Brasington & Andrés Gómez Emilsson on WystanTBS YouTube Channel.md",
     "Daily notes/2022-07-07.md",
     "Check.md",
@@ -129,8 +131,6 @@
     "Accounts.md",
     "Festivals.md",
     "head.jpeg",
-    "History.md",
-    "Valence.md",
-    "Jhana/Jhana 8.md"
+    "History.md"
   ]
 }
