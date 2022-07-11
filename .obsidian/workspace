@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Readwise/Books/Mastering the Core Teachings of the Buddha.md",
+            "file": "Readwise/The War on the West.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readwise/Books/Mastering the Core Teachings of the Buddha.md",
+                "file": "Readwise/The War on the West.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readwise/Books/Mastering the Core Teachings of the Buddha.md",
+                "file": "Readwise/The War on the West.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,15 +122,15 @@
   },
   "active": "d7b8087adee08453",
   "lastOpenFiles": [
+    "Readwise/The War on the West.md",
+    "Readwise/The Rational Male.md",
+    "Readwise/The Psychopath's Bible.md",
+    "Readwise/What Is Zen.md",
+    "Readwise/Zen Flesh, Zen Bones.md",
     "Readwise/Books/Mastering the Core Teachings of the Buddha.md",
-    "Readwise/Tweets From Visakan Veerasamy.md",
-    "Daily notes/2022-07-11.md",
-    "Daily notes/2022-07-08.md",
-    "Daily notes/2022-07-07.md",
-    "Daily notes/2022-07-05.md",
-    "Daily notes/2022-07-06.md",
-    "Danaher on Gi vs No-Gi.md",
-    "Travel Hacks.md",
-    "Leigh Brasington & Andrés Gómez Emilsson on WystanTBS YouTube Channel.md"
+    "Meditation.md",
+    "Daniel Ingram.md",
+    "Readwise/Mastering the Core Teachings of the Buddha.md",
+    "Daily notes/2022-07-11.md"
   ]
 }

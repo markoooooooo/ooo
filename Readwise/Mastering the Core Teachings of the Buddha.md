@@ -1,10 +1,10 @@
-# Mastering the Core Teachings of the Buddha
+# [[Readwise/Books/Mastering the Core Teachings of the Buddha|Mastering the Core Teachings of the Buddha]]
 
 ![rw-book-cover](https://images-na.ssl-images-amazon.com/images/I/51JiGHwTCFL._SL200_.jpg)
 
 ## Metadata
 - Author: [[Daniel Ingram]]
-- Full Title: Mastering the Core Teachings of the Buddha
+- Full Title: [[Readwise/Books/Mastering the Core Teachings of the Buddha|Mastering the Core Teachings of the Buddha]]
 - Category: #books
 
 ## Highlights
