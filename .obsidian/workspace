@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Valence.md",
+            "file": "Meditation.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Valence.md",
+                "file": "Meditation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Valence.md",
+                "file": "Meditation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,15 +122,15 @@
   },
   "active": "d7b8087adee08453",
   "lastOpenFiles": [
+    "Meditation.md",
+    "People.md",
     "Valence.md",
     "Valence Structuralism.md",
     "Welcome.md",
-    "Meditation.md",
     "Leigh Brasington & Andrés Gómez Emilsson on WystanTBS YouTube Channel.md",
     "History.md",
     "head.jpeg",
     "Festivals.md",
-    "Daniel Ingram.md",
-    "Danaher on Gi vs No-Gi.md"
+    "Daniel Ingram.md"
   ]
 }
