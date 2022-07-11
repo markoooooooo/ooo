@@ -5,7 +5,7 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 4891143,
+  "lastSavedStatusID": 4911299,
   "currentSyncStatusID": 0,
   "refreshBooks": false,
   "booksToRefresh": [],
@@ -54,7 +54,11 @@
     "Readwise/Tweets From John F Nash Jr., Ideal Money & Game Theory Bot.md": "16579345",
     "Readwise/Tweets From Theo.md": "16579346",
     "Readwise/Tweets From Fabrice Liut 𐃏.md": "16579347",
-    "Readwise/Tweets From 𝗖𝗵𝗶𝗲𝗳.md": "16630012"
+    "Readwise/Tweets From 𝗖𝗵𝗶𝗲𝗳.md": "16630012",
+    "Readwise/Tweets From Financelot.md": "16660050",
+    "Readwise/Tweets From Fred Ehrsam.md": "16686220",
+    "Readwise/Tweets from Cory Klippsten.md": "16686217",
+    "Readwise/Tweets From Axios.md": "16703036"
   },
   "reimportShowConfirmation": true
 }

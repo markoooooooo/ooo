@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Danaher on Gi vs No-Gi.md",
+            "file": "Daily notes/2022-07-11.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Danaher on Gi vs No-Gi.md",
+                "file": "Daily notes/2022-07-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Danaher on Gi vs No-Gi.md",
+                "file": "Daily notes/2022-07-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,15 +122,15 @@
   },
   "active": "d7b8087adee08453",
   "lastOpenFiles": [
-    "Danaher on Gi vs No-Gi.md",
+    "Daily notes/2022-07-11.md",
     "Daily notes/2022-07-08.md",
+    "Daily notes/2022-07-07.md",
+    "Daily notes/2022-07-05.md",
+    "Daily notes/2022-07-06.md",
+    "Danaher on Gi vs No-Gi.md",
     "Travel Hacks.md",
     "Leigh Brasington & Andrés Gómez Emilsson on WystanTBS YouTube Channel.md",
-    "Daily notes/2022-07-07.md",
     "Check.md",
-    "Optimalism.md",
-    "Accounts.md",
-    "Festivals.md",
-    "head.jpeg"
+    "Optimalism.md"
   ]
 }
