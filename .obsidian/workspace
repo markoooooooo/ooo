@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily notes/2022-07-11.md",
+            "file": "Readwise/Books/Mastering the Core Teachings of the Buddha.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily notes/2022-07-11.md",
+                "file": "Readwise/Books/Mastering the Core Teachings of the Buddha.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily notes/2022-07-11.md",
+                "file": "Readwise/Books/Mastering the Core Teachings of the Buddha.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,6 +122,8 @@
   },
   "active": "d7b8087adee08453",
   "lastOpenFiles": [
+    "Readwise/Books/Mastering the Core Teachings of the Buddha.md",
+    "Readwise/Tweets From Visakan Veerasamy.md",
     "Daily notes/2022-07-11.md",
     "Daily notes/2022-07-08.md",
     "Daily notes/2022-07-07.md",
@@ -129,8 +131,6 @@
     "Daily notes/2022-07-06.md",
     "Danaher on Gi vs No-Gi.md",
     "Travel Hacks.md",
-    "Leigh Brasington & Andrés Gómez Emilsson on WystanTBS YouTube Channel.md",
-    "Check.md",
-    "Optimalism.md"
+    "Leigh Brasington & Andrés Gómez Emilsson on WystanTBS YouTube Channel.md"
   ]
 }
