@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily notes/2022-07-19.md",
+            "file": "Valence.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily notes/2022-07-19.md",
+                "file": "Valence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily notes/2022-07-19.md",
+                "file": "Valence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,15 +122,15 @@
   },
   "active": "d7b8087adee08453",
   "lastOpenFiles": [
+    "Valence Structuralism.md",
+    "Daily notes/2022-07-23.md",
     "Daily notes/2022-07-19.md",
     "Meditation.md",
     "People.md",
     "Valence.md",
-    "Valence Structuralism.md",
     "Welcome.md",
     "Leigh Brasington & Andrés Gómez Emilsson on WystanTBS YouTube Channel.md",
     "History.md",
-    "head.jpeg",
-    "Festivals.md"
+    "head.jpeg"
   ]
 }
