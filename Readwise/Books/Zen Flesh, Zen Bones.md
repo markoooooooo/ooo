@@ -26,3 +26,5 @@
     - Tags: [[orange]] 
 - It is too clear and so it is hard to see. A dunce once searched for a fire with a lighted lantern. Had he known what fire was, He could have cooked his rice much sooner. ([Location 1426](https://readwise.io/to_kindle?action=open&asin=B07D1PP23J&location=1426))
     - Tags: [[orange]] 
+## New highlights added July 27, 2022 at 11:19 AM
+- Gasan instructed his adherents one day: “Those who speak against killing and who desire to spare the lives of all conscious beings are right. It is good to protect even animals and insects. But what about those persons who kill time, what about those who are destroying wealth, and those who destroy political economy? We should not overlook them. Furthermore, what of the one who preaches without enlightenment? He is killing Buddhism.” ([Location 970](https://readwise.io/to_kindle?action=open&asin=B07D1PP23J&location=970))
