@@ -5,7 +5,7 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 5053362,
+  "lastSavedStatusID": 5235093,
   "currentSyncStatusID": 0,
   "refreshBooks": true,
   "booksToRefresh": [],
@@ -47,7 +47,11 @@
     "Readwise/Books/A Path With Heart.md": "16417989",
     "Readwise/Books/A Guide to the Good Life.md": "16418190",
     "Readwise/Books/12 Rules for Life.md": "16418186",
-    "Readwise/Books/Mastering the Core Teachings of the Buddha.md": "16535060"
+    "Readwise/Books/Mastering the Core Teachings of the Buddha.md": "16535060",
+    "Readwise/Books/The Futurological Congress.md": "17277214",
+    "Readwise/Books/Secret Drugs of Buddhism.md": "17212459",
+    "Readwise/Books/How We Learn to Move.md": "17637264",
+    "Readwise/Books/The Science of Enlightenment.md": "17572378"
   },
   "reimportShowConfirmation": true
 }
