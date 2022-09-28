@@ -5,7 +5,7 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 5235093,
+  "lastSavedStatusID": 5640092,
   "currentSyncStatusID": 0,
   "refreshBooks": true,
   "booksToRefresh": [],
@@ -51,7 +51,9 @@
     "Readwise/Books/The Futurological Congress.md": "17277214",
     "Readwise/Books/Secret Drugs of Buddhism.md": "17212459",
     "Readwise/Books/How We Learn to Move.md": "17637264",
-    "Readwise/Books/The Science of Enlightenment.md": "17572378"
+    "Readwise/Books/The Science of Enlightenment.md": "17572378",
+    "Readwise/Books/The Hedonistic Imperative.md": "18807342",
+    "Readwise/Books/The Hazy Moon of Enlightenment.md": "18874972"
   },
   "reimportShowConfirmation": true
 }
