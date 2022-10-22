@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/2022-10-22.md",
+                "file": "History.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily notes/2022-10-22.md",
+                "file": "History.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily notes/2022-10-22.md",
+                "file": "History.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,15 +133,15 @@
   },
   "active": "d7b8087adee08453",
   "lastOpenFiles": [
+    "Festivals.md",
+    "Daily notes/2022-10-22.md",
     "People/Andrés Gómez Emilsson.md",
     "Leigh Brasington & Andrés Gómez Emilsson on WystanTBS YouTube Channel.md",
     "Untitled 1.md",
-    "Daily notes/2022-10-22.md",
     "To do.md",
     "Daily notes/2022-10-02.md",
     "Daily notes/2022-09-28.md",
     "Daily notes/2022-08-17.md",
-    "Daily notes/2022-07-27.md",
-    "Valence.md"
+    "Daily notes/2022-07-27.md"
   ]
 }

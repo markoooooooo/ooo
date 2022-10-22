@@ -17,4 +17,7 @@
 - Equation, Vietnam
 - Horst, Belgium
 - Stihia, Uzbekistan
+- Parallel, Spain
+- Labyrinth, Japan
+- Organik, Taiwan
 
