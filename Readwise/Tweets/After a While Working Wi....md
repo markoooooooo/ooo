@@ -1,0 +1,51 @@
+# After a While Working Wi...
+
+![rw-book-cover](https://pbs.twimg.com/profile_images/1537595844882378752/uG4-aQYm.jpg)
+
+## Metadata
+- Author: [[@bayeslord on Twitter]]
+- Full Title: After a While Working Wi...
+- Category: #tweets
+- URL: https://twitter.com/bayeslord/status/1575459028725125120
+
+## Highlights
+- After a while working with them, I can confirm jhanas are based. The counterintuitive claims made by @nickcammarata and others abt how instant access to pleasure+happy feelings leads to more hedonic balance, less craving, etc. have truth ime … which remains super surprising ([View Tweet](https://twitter.com/bayeslord/status/1575459028725125120))
+- I will get back to this point, will first discuss how I do jhanas (mostly typical approach afaik). I highly recommend not taking my account of these too seriously. I’m newish to it and am being a bit lazy in my explanations ([View Tweet](https://twitter.com/bayeslord/status/1575459094701424642))
+- That being said, basically, you start by concentrating on good feelings in your body (or unconditional love/metta). If you don’t get sidetracked (this word is doing a lot of work), this can kick off a feedback loop which leads to *high* levels of pleasure and happiness. ([View Tweet](https://twitter.com/bayeslord/status/1575459096228143104))
+- (What do I mean by sidetracked? Well, Buddhist ppl will talk about the hindrances (sloth, aversion, craving, etc) and how you need to get rid of them for jhana to happen. Idk. This is a bit too dogmatic imo. The body can compute it if the mind calls for it. Right? ([View Tweet](https://twitter.com/bayeslord/status/1575459097591402496))
+- Yes. However, in practice, not pushing/pulling on feelings and emotions seems required for cultivating these states.)
+  Feedback loop is how I do j1/j2, after these it gets quieter + more difficult to explain, kind of a winding down of, and narrowing of attn on, diff parts of j1/j2 ([View Tweet](https://twitter.com/bayeslord/status/1575459099319406592))
+- Also fwiw I’ve only got 1-3 consistently and clearly accessible. Takes me a very short amount of time to start j1/j2 now. j3 is attainable for me but not as directly as I think it can be. Sometimes j1/j2 are harder for me to differentiate between. ([View Tweet](https://twitter.com/bayeslord/status/1575459100783263744))
+- j4 is where things get a bit weird, again, very very quiet … I don’t really like this state much because it feels colorless compared to the others, esp j3. But tbh the experience is hard for me to communicate — you just need to practice and try it ([View Tweet](https://twitter.com/bayeslord/status/1575459102167277569))
+- Have also accidentally stumbled into higher (formless) jhanas (j5-j8), had some visions which I don’t exactly know how to place, and other unexpected stuff. These seem like a great way to get a close experience of e.g. nothingness, but tbh I’m just not that interested in them rn ([View Tweet](https://twitter.com/bayeslord/status/1575459103656316928))
+- Okay back to the claims about addictiveness/effect on craving. One possible explanation is that the lower jhanas are like sex. It’s not that you can’t get addicted to them, rather there’s a natural saturation + refractory period (which may be longer and more satisfying than sex) ([View Tweet](https://twitter.com/bayeslord/status/1575459105350815745))
+- Esp w j1, this feels true, but not the whole story. For other jhanas it doesn’t work well at all imo. I think Nick C’s go to explanation is that psychologically, a sense of happiness+pleasure abundance effortlessly leaves you wanting less + less attached. I think this is correct. ([View Tweet](https://twitter.com/bayeslord/status/1575459107125043200))
+- This has absolutely happened for me, it is very profound. 
+  Like “wtaf why is no one taking about this” profound. Fully jhana-pilled after I started noticing this. It gives such an easy ramp into letting bs go and finding formerly top 0.1% happiness states in line at the store ([View Tweet](https://twitter.com/bayeslord/status/1575459108970446851))
+- Also: there is a very clear positive effect on my adhd symptoms. Perfect flow is automatic after 10-30 mins of playing with j1/j2.I don’t take any stimulants at all so the effect is *super* obvious. No stims prob also means there’s low-hanging dopaminergic modulation fruit though ([View Tweet](https://twitter.com/bayeslord/status/1575459111927521283))
+- What about actually practicing them? 
+  So, let me summarize the history crudely first — there’s this thing in the jhana discourse where the traditional view is that jhanas are super hard and take a shitload of practice, and only like 1/10^8 ppl can learn them lol ([View Tweet](https://twitter.com/bayeslord/status/1575459114934730755))
+- This sort of claim may be mostly (or entirely) about j5-j8, but either way it seems plainly untrue. This ofc depends on your standard and cutoffs for “real attainment of a given state”, but here it becomes a quibble over mere definitions and dogma, so who gives af ([View Tweet](https://twitter.com/bayeslord/status/1575459117325586432))
+- Then, ppl like Leigh Brasington began teaching the idea that jhanas are actually attainable for ppl who are merely decent at meditation, not just super experts. My read on Leigh’s general belief is that with a 10 day retreat or two, many ppl can make good progress ([View Tweet](https://twitter.com/bayeslord/status/1575459343562166274))
+- Now, take this with a grain of salt, but I think (at least for some ppl), even this might be overstating the difficulty. 
+  I’ve put in <100hrs, the main bulk of actual jhana practice being as low as 30hrs, starting roughly at the beginning of this year to get to this point ([View Tweet](https://twitter.com/bayeslord/status/1575459345139208192))
+- There is plenty of practice left before j1-j4 mastery, but idk, the effects so far have been absurd. If we’re talking 80/20 I think the bar is lower than the consensus belief. In general I think Leigh makes everything sound a bit harder than it is, a bit more serious in some ways ([View Tweet](https://twitter.com/bayeslord/status/1575459435719393281))
+- One major caveat about this timeline is that I started with *very unusually* high sensory clarity, and that may be a major factor in my rate of progress. I also knew how to meditate and have had deep practice in the past — but I hadn’t had a daily practice for a long time… ([View Tweet](https://twitter.com/bayeslord/status/1575459495743987712))
+- … imo that experience is prob not as big of a factor. 
+  My actual schedule was like, dabbling earlier in the year w random meditations, and then over the last couple of months doing 15-60 minutes almost every morning upon waking (as much or as little as I felt like) ([View Tweet](https://twitter.com/bayeslord/status/1575459497119719425))
+- My mind is often clear right when I wake up because I don’t drink caffeine at all, so I usually practice just lying flat in bed with AirPods Max + sleep mask on and do noting+labeling for 10-15 minutes with a timer.
+  Once the timer ends I move to j1, and start exploring ([View Tweet](https://twitter.com/bayeslord/status/1575459498763980800))
+- I should mention, being flat was a great way to learn. Yes I fell asleep once or twice, but you can practice staying awake. Lying flat lets my body relax and creates a lot of space for tending to the kindling of positive sensations + having clear attn on them ([View Tweet](https://twitter.com/bayeslord/status/1575459500395569152))
+- However, now that I’ve become a bit more skilled it’s very obvious that the energy flows in j1 much more readily when sitting up, and when j1 is potent everything seems to work better. So now I do both ([View Tweet](https://twitter.com/bayeslord/status/1575459501888733185))
+- An interesting thing: I realized in learning and working w j2 that I somewhere in my brain there was an actual throttle on happiness!! Literally just a circuit meant to clamp down my good feelings when I got too happy. When I noticed this I was ofc like wtf??? ([View Tweet](https://twitter.com/bayeslord/status/1575459503432208386))
+- I let it go after some difficulty and everything went very nicely from then on 
+  I don’t think I noticed this clamping because I was previously rarely simultaneously as happy and attentive to it as is required. Learning j2/j3 required attention on this throttle ([View Tweet](https://twitter.com/bayeslord/status/1575459504917024768))
+- Almost final thoughts:
+  - Leigh’s book is very helpful, but Rob Burbea’s vibe in his dharma seed talks is wayyyy more conducive to jhana imo
+  - I do think there is a neurochemcal fuel to all of this which, if eg I sleep poorly, makes it harder and work less well ([View Tweet](https://twitter.com/bayeslord/status/1575459516623241217))
+- Another thing I want to be clear about is that the energy of these states, esp after, is the most calm happiness I’ve ever experienced, including with drugs (all drugs have a noticeable tense edge to them for me). Very much in opposition to stimulant effect kind of feelings. ([View Tweet](https://twitter.com/bayeslord/status/1575459906269978628))
+- I’m wired for high stress and neuroticism, and tend to walk around with lots of tension, so naturally my previous dominant model of feeling very happy was in fact like, stimulant highs. ([View Tweet](https://twitter.com/bayeslord/status/1575459927304376324))
+- j1 can be **sort of** like these, but j2/j3 are not, and honestly give a kind of calm+focus+happy combo that feels like a drug from the 2200s ([View Tweet](https://twitter.com/bayeslord/status/1575459930487799809))
+- References are basically googling with scrutiny, right concentration (Leigh’s book) and as I said rob burbea’s dharma seed talks (download the app it’s much easier and free, then search eg “first jhana”). ([View Tweet](https://twitter.com/bayeslord/status/1575461459156508672))
+- I think this almost goes without saying, but I would have had no clue about any of this if not for nick’s tweets, so thanks nick ([View Tweet](https://twitter.com/bayeslord/status/1575461467125579776))
+- Adding for continuity https://t.co/rky64ygnF2 ([View Tweet](https://twitter.com/bayeslord/status/1575611802419105792))
