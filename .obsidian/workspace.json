@@ -24,9 +24,12 @@
             "id": "381991cb201d182b",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.0.0"
+                "file": "Readwise/Books/Secret Drugs of Buddhism.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -89,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily notes/2022-10-22.md",
+                "file": "Readwise/Books/Secret Drugs of Buddhism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily notes/2022-10-22.md",
+                "file": "Readwise/Books/Secret Drugs of Buddhism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,6 +147,7 @@
   },
   "active": "381991cb201d182b",
   "lastOpenFiles": [
+    "To do.md",
     "Daily notes/2022-10-02.md",
     "Daily notes/2022-09-28.md",
     "Daily notes/2022-08-17.md",
@@ -152,7 +156,6 @@
     "Valence Structuralism.md",
     "Daily notes/2022-07-23.md",
     "Daily notes/2022-07-19.md",
-    "Meditation.md",
-    "People.md"
+    "Meditation.md"
   ]
 }
