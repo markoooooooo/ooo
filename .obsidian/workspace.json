@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readwise/Books/Secret Drugs of Buddhism.md",
+                "file": "Readwise/Books/Zen Flesh, Zen Bones.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readwise/Books/Secret Drugs of Buddhism.md",
+                "file": "Readwise/Books/Zen Flesh, Zen Bones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readwise/Books/Secret Drugs of Buddhism.md",
+                "file": "Readwise/Books/Zen Flesh, Zen Bones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,6 +147,7 @@
   },
   "active": "381991cb201d182b",
   "lastOpenFiles": [
+    "Daily notes/2022-10-22.md",
     "To do.md",
     "Daily notes/2022-10-02.md",
     "Daily notes/2022-09-28.md",
@@ -155,7 +156,6 @@
     "Valence.md",
     "Valence Structuralism.md",
     "Daily notes/2022-07-23.md",
-    "Daily notes/2022-07-19.md",
-    "Meditation.md"
+    "Daily notes/2022-07-19.md"
   ]
 }
