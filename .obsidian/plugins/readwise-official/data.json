@@ -5,8 +5,8 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 5640092,
-  "currentSyncStatusID": 5677518,
+  "lastSavedStatusID": 5883174,
+  "currentSyncStatusID": 0,
   "refreshBooks": true,
   "booksToRefresh": [],
   "booksIDsMap": {
@@ -53,7 +53,8 @@
     "Readwise/Books/How We Learn to Move.md": "17637264",
     "Readwise/Books/The Science of Enlightenment.md": "17572378",
     "Readwise/Books/The Hedonistic Imperative.md": "18807342",
-    "Readwise/Books/The Hazy Moon of Enlightenment.md": "18874972"
+    "Readwise/Books/The Hazy Moon of Enlightenment.md": "18874972",
+    "Readwise/Books/The Flip.md": "19293416"
   },
   "reimportShowConfirmation": true
 }
