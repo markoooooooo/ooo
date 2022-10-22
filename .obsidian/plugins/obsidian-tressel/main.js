@@ -1459,15 +1459,303 @@ var Api = class {
 };
 var api_default = Api;
 
-// src/main.ts
-var import_obsidian3 = __toModule(require("obsidian"));
+// src/helpers/sync.ts
+var import_obsidian = __toModule(require("obsidian"));
 var import_sanitize_filename = __toModule(require_sanitize_filename());
+var createTresselSyncFolder = (app, settings) => __async(void 0, null, function* () {
+  const tresselFolder = app.vault.getAbstractFileByPath(settings.syncFolder);
+  const tresselFolderExists = tresselFolder instanceof import_obsidian.TFolder;
+  if (!tresselFolderExists) {
+    try {
+      yield app.vault.createFolder(settings.syncFolder);
+    } catch (error) {
+      console.info("Error creating Tressel sync folder - ", error);
+    }
+  }
+});
+var createSyncSubfolder = (subfolderPath, app, settings) => __async(void 0, null, function* () {
+  try {
+    yield app.vault.createFolder(settings.syncFolder + subfolderPath);
+  } catch (error) {
+    console.info(`Error while creating Tressel ${subfolderPath} folder -`, error);
+  }
+});
+var syncTresselUserData = (userData, app, settings) => __async(void 0, null, function* () {
+  if (userData.hasOwnProperty("tweets") && userData.tweets.length > 0) {
+    yield createSyncSubfolder("/Twitter", app, settings);
+    yield createSyncSubfolder("/Twitter/Tweets", app, settings);
+    for (let tweet of userData.tweets) {
+      yield syncTweetToObsidian(tweet, app, settings);
+    }
+  }
+  if (userData.hasOwnProperty("tweetCollections") && userData.tweetCollections.length > 0) {
+    yield createSyncSubfolder("/Twitter", app, settings);
+    yield createSyncSubfolder("/Twitter/Tweet Collections", app, settings);
+    for (let tweetCollection of userData.tweetCollections) {
+      yield syncTweetCollectionToObsidian(tweetCollection, app, settings);
+    }
+  }
+  if (userData.hasOwnProperty("redditComments") && userData.redditComments.length > 0) {
+    yield createSyncSubfolder("/Reddit", app, settings);
+    yield createSyncSubfolder("/Reddit/Comments", app, settings);
+    for (let redditComment of userData.redditComments) {
+      yield syncRedditCommentToObsidian(redditComment, app, settings);
+    }
+  }
+  if (userData.hasOwnProperty("redditPosts") && userData.redditPosts.length > 0) {
+    yield createSyncSubfolder("/Reddit", app, settings);
+    yield createSyncSubfolder("/Reddit/Posts", app, settings);
+    for (let redditPost of userData.redditPosts) {
+      yield syncRedditPostToObsidian(redditPost, app, settings);
+    }
+  }
+  if (userData.hasOwnProperty("kindleHighlights") && userData.kindleHighlights.length > 0) {
+    yield createSyncSubfolder("/Kindle Highlights", app, settings);
+    for (let kindleHighlight of userData.kindleHighlights) {
+      yield syncKindleHighlightToObsidian(kindleHighlight, app, settings);
+    }
+  }
+  if (userData.hasOwnProperty("genericHighlights") && userData.genericHighlights.length > 0) {
+    yield createSyncSubfolder("/Highlights", app, settings);
+    for (let genericHighlight of userData.genericHighlights) {
+      yield syncGenericHighlightToObsidian(genericHighlight, app, settings);
+    }
+  }
+  if (userData.hasOwnProperty("pocketHighlights") && userData.pocketHighlights.length > 0) {
+    yield createSyncSubfolder("/Pocket", app, settings);
+    for (let pocketHighlight of userData.pocketHighlights) {
+      yield syncPocketHighlightToObsidian(pocketHighlight, app, settings);
+    }
+  }
+});
+var syncTweetToObsidian = (tweet, app, settings) => __async(void 0, null, function* () {
+  try {
+    let templateArray = [
+      `# ${tweet.text.replace(/(\r\n|\n|\r)/gm, " ").slice(0, 50)}...`,
+      `## Metadata`,
+      `- Author: [${tweet.author.name}](https://twitter.com/${tweet.author.username})`,
+      `- Type: \u{1F424} Tweet #tweet`,
+      `- URL: ${tweet.url}
+`,
+      `## Tweet`,
+      `${tweet.text}
+`
+    ];
+    if (tweet.media) {
+      for (let mediaEntity of tweet.media) {
+        templateArray.push(`![](${mediaEntity.url})
+`);
+      }
+    }
+    let template = templateArray.join("\n");
+    yield app.vault.create(settings.syncFolder + "/Twitter/Tweets/" + (0, import_sanitize_filename.default)(tweet.text.replace(/(\r\n|\n|\r)/gm, " ").replace("\n\n", " ").replace("\n\n\n", " ").slice(0, 50)) + ".md", template);
+  } catch (error) {
+    console.error(`Error syncing tweet ${tweet.url} -`, error);
+  }
+});
+var syncTweetCollectionToObsidian = (tweetCollection, app, settings) => __async(void 0, null, function* () {
+  if (tweetCollection.type === 1) {
+    try {
+      let templateArray = [
+        `# ${tweetCollection.tweets[0].text.replace(/(\r\n|\n|\r)/gm, " ").slice(0, 50)}...`,
+        `## Metadata`,
+        `- Author: [${tweetCollection.author.name}](https://twitter.com/${tweetCollection.author.username})`,
+        `- Type: \u{1F9F5} Thread #thread`,
+        `- URL: ${tweetCollection.url}
+`,
+        `## Thread`
+      ];
+      for (let tweet of tweetCollection.tweets) {
+        templateArray.push(`${tweet.text}
+`);
+        if (tweet.media) {
+          for (let mediaEntity of tweet.media) {
+            templateArray.push(`![](${mediaEntity.url})
+`);
+          }
+        }
+      }
+      let template = templateArray.join("\n");
+      yield app.vault.create(settings.syncFolder + "/Twitter/Tweet Collections/" + (0, import_sanitize_filename.default)(tweetCollection.tweets[0].text.replace(/(\r\n|\n|\r)/gm, " ").replace("\n\n", " ").replace("\n\n\n", " ").slice(0, 50)) + ".md", template);
+    } catch (error) {
+      console.error(`Error syncing thread ${tweetCollection.url} -`, error);
+    }
+  } else if (tweetCollection.type === 2) {
+    try {
+      let templateArray = [
+        `# ${tweetCollection.tweets[0].text.replace(/(\r\n|\n|\r)/gm, " ").slice(0, 50)}...`,
+        `## Metadata`,
+        `- Author: [${tweetCollection.author.name}](https://twitter.com/${tweetCollection.author.username})`,
+        `- Type: \u{1F4AC} Conversation #conversation`,
+        `- URL: ${tweetCollection.url}
+`,
+        `## Conversation`
+      ];
+      for (let tweet of tweetCollection.tweets) {
+        templateArray.push(`**[${tweet.author.name} (@${tweet.author.username})](${tweet.author.url})**
+`);
+        templateArray.push(`${tweet.text}
+`);
+        if (tweet.media) {
+          for (let mediaEntity of tweet.media) {
+            templateArray.push(`![](${mediaEntity.url})
+`);
+          }
+        }
+        templateArray.push(`---
+`);
+      }
+      let template = templateArray.join("\n");
+      yield app.vault.create(settings.syncFolder + "/Twitter/Tweet Collections/" + (0, import_sanitize_filename.default)(tweetCollection.tweets[0].text.replace(/(\r\n|\n|\r)/gm, " ").replace("\n\n", " ").replace("\n\n\n", " ").slice(0, 50)) + ".md", template);
+    } catch (error) {
+      console.error(`Error syncing conversation ${tweetCollection.url} -`, error);
+    }
+  }
+});
+var syncRedditCommentToObsidian = (redditComment, app, settings) => __async(void 0, null, function* () {
+  try {
+    let templateArray = [
+      `# ${redditComment.text.replace(/(\r\n|\n|\r)/gm, " ").slice(0, 50)}...`,
+      `## Metadata`,
+      `- Subreddit: [r/${redditComment.subreddit}](https://reddit.com/r/${redditComment.subreddit})`,
+      `- Author: [u/${redditComment.author.username}](https://reddit.com/user/${redditComment.author.username})`,
+      `- Type: \u{1F47E} Reddit Comment #reddit-comment`,
+      `- URL: ${redditComment.url}
+`,
+      `## Comment`,
+      `${redditComment.text}
+`
+    ];
+    let template = templateArray.join("\n");
+    yield app.vault.create(settings.syncFolder + "/Reddit/Comments/" + (0, import_sanitize_filename.default)(redditComment.text.replace(/(\r\n|\n|\r)/gm, " ").replace("\n\n", " ").replace("\n\n\n", " ").slice(0, 50)) + ".md", template);
+  } catch (error) {
+    console.error(`Error syncing redditComment ${redditComment.url} -`, error);
+  }
+});
+var syncRedditPostToObsidian = (redditPost, app, settings) => __async(void 0, null, function* () {
+  try {
+    let templateArray = [
+      `# ${redditPost.title.replace(/(\r\n|\n|\r)/gm, " ")}`,
+      `## Metadata`,
+      `- Subreddit: [r/${redditPost.subreddit}](https://reddit.com/r/${redditPost.subreddit})`,
+      `- Author: [u/${redditPost.author.username}](https://reddit.com/user/${redditPost.author.username})`,
+      `- Type: \u{1F47E} Reddit Post #reddit-post`,
+      `- URL: ${redditPost.url}
+`,
+      `## Post`,
+      `${redditPost.text ? redditPost.text + "\n" : ""}`
+    ];
+    if (redditPost.media) {
+      for (let mediaEntity of redditPost.media) {
+        if (mediaEntity.type === 1) {
+          templateArray.push(`![](${mediaEntity.url})
+`);
+        } else if (mediaEntity.type === 2) {
+          templateArray.push(`[Video](${mediaEntity.url})
+`);
+        }
+      }
+    }
+    let template = templateArray.join("\n");
+    yield app.vault.create(settings.syncFolder + "/Reddit/Posts/" + (0, import_sanitize_filename.default)(redditPost.title.replace(/(\r\n|\n|\r)/gm, " ").replace("\n\n", " ").replace("\n\n\n", " ").slice(0, 50)) + ".md", template);
+  } catch (error) {
+    console.error(`Error syncing redditPost ${redditPost.url} -`, error);
+  }
+});
+var syncKindleHighlightToObsidian = (kindleHighlight, app, settings) => __async(void 0, null, function* () {
+  try {
+    const bookPage = yield app.vault.getAbstractFileByPath(settings.syncFolder + "/Kindle Highlights/" + (0, import_sanitize_filename.default)(kindleHighlight.book.title.replace(/(\r\n|\n|\r)/gm, " ").replace("\n\n", " ").replace("\n\n\n", " ").slice(0, 50)) + ".md");
+    let updatedBookPage;
+    if (bookPage instanceof import_obsidian.TFile) {
+      updatedBookPage = bookPage;
+    } else {
+      let templateArray = [
+        `# ${kindleHighlight.book.title.replace(/(\r\n|\n|\r)/gm, " ")}`,
+        `## Metadata`,
+        `- Author: ${kindleHighlight.book.author}`,
+        `- Type: \u{1F4D5} Kindle Highlight #kindle-highlight`,
+        `- URL: ${kindleHighlight.book.url}
+`,
+        `## Highlights`
+      ];
+      let template = templateArray.join("\n");
+      try {
+        updatedBookPage = yield app.vault.create(settings.syncFolder + "/Kindle Highlights/" + (0, import_sanitize_filename.default)(kindleHighlight.book.title.replace(/(\r\n|\n|\r)/gm, " ").replace("\n\n", " ").replace("\n\n\n", " ").slice(0, 50)) + ".md", template);
+      } catch (error) {
+        console.error(`Error syncing kindleHighlight ${kindleHighlight.url} -`, error);
+      }
+    }
+    if (updatedBookPage) {
+      let updatedBookContents = yield app.vault.read(updatedBookPage);
+      updatedBookContents += `
+${kindleHighlight.text} - *Location: ${kindleHighlight.location}*
+`;
+      yield app.vault.modify(updatedBookPage, updatedBookContents);
+    }
+  } catch (error) {
+    console.error(`Error syncing kindleHighlight ${kindleHighlight.url} -`, error);
+  }
+});
+var syncGenericHighlightToObsidian = (genericHighlight, app, settings) => __async(void 0, null, function* () {
+  try {
+    let templateArray = [
+      `# ${genericHighlight.title.replace(/(\r\n|\n|\r)/gm, " ")}`,
+      `## Metadata`,
+      `- Type: \u{1F4AC} Highlight #highlight`,
+      `- URL: ${genericHighlight.url}
+`,
+      `## Highlight`,
+      `${genericHighlight.text ? genericHighlight.text + "\n" : ""}`
+    ];
+    let template = templateArray.join("\n");
+    yield app.vault.create(settings.syncFolder + "/Highlights/" + (0, import_sanitize_filename.default)(genericHighlight.title.replace(/(\r\n|\n|\r)/gm, " ").replace("\n\n", " ").replace("\n\n\n", " ").slice(0, 50)) + ".md", template);
+  } catch (error) {
+    console.error(`Error syncing genericHighlight ${genericHighlight.url} -`, error);
+  }
+});
+var syncPocketHighlightToObsidian = (pocketHighlight, app, settings) => __async(void 0, null, function* () {
+  try {
+    const articlePage = yield app.vault.getAbstractFileByPath(settings.syncFolder + "/Pocket/" + (0, import_sanitize_filename.default)(pocketHighlight.pocketArticle.title.replace(/(\r\n|\n|\r)/gm, " ").replace("\n\n", " ").replace("\n\n\n", " ").slice(0, 50)) + ".md");
+    let updatedArticlePage;
+    if (articlePage instanceof import_obsidian.TFile) {
+      updatedArticlePage = articlePage;
+    } else {
+      let templateArray = [
+        `# ${pocketHighlight.pocketArticle.title.replace(/(\r\n|\n|\r)/gm, " ")}`,
+        `## Metadata`,
+        `- Author: ${pocketHighlight.pocketArticle.author}`,
+        `- Type: \u{1F4D1} Pocket Highlights #pocket-highlights`,
+        `- URL: ${pocketHighlight.pocketArticle.url}
+`,
+        `## Highlights`
+      ];
+      let template = templateArray.join("\n");
+      try {
+        updatedArticlePage = yield app.vault.create(settings.syncFolder + "/Pocket/" + (0, import_sanitize_filename.default)(pocketHighlight.pocketArticle.title.replace(/(\r\n|\n|\r)/gm, " ").replace("\n\n", " ").replace("\n\n\n", " ").slice(0, 50)) + ".md", template);
+      } catch (error) {
+        console.error(`Error syncing pocketHighlight ${pocketHighlight.pocketArticle.url} -`, error);
+      }
+    }
+    if (updatedArticlePage) {
+      let updatedArticleContents = yield app.vault.read(updatedArticlePage);
+      updatedArticleContents += `
+${pocketHighlight.text}*
+`;
+      yield app.vault.modify(updatedArticlePage, updatedArticleContents);
+    }
+  } catch (error) {
+    console.error(`Error syncing pocketHighlight ${pocketHighlight.pocketArticle.url} -`, error);
+  }
+});
+
+// src/main.ts
+var import_obsidian4 = __toModule(require("obsidian"));
 
 // src/settings/suggesters/FolderSuggester.ts
-var import_obsidian2 = __toModule(require("obsidian"));
+var import_obsidian3 = __toModule(require("obsidian"));
 
 // src/settings/suggesters/suggest.ts
-var import_obsidian = __toModule(require("obsidian"));
+var import_obsidian2 = __toModule(require("obsidian"));
 
 // node_modules/@popperjs/core/lib/enums.js
 var top = "top";
@@ -3094,7 +3382,7 @@ var TextInputSuggest = class {
   constructor(app, inputEl) {
     this.app = app;
     this.inputEl = inputEl;
-    this.scope = new import_obsidian.Scope();
+    this.scope = new import_obsidian2.Scope();
     this.suggestEl = createDiv("suggestion-container");
     const suggestion = this.suggestEl.createDiv("suggestion");
     this.suggest = new Suggest(this, suggestion, this.scope);
@@ -3159,7 +3447,7 @@ var FolderSuggest = class extends TextInputSuggest {
     const folders = [];
     const lowerCaseInputStr = inputStr.toLowerCase();
     abstractFiles.forEach((folder) => {
-      if (folder instanceof import_obsidian2.TFolder && folder.path.toLowerCase().contains(lowerCaseInputStr)) {
+      if (folder instanceof import_obsidian3.TFolder && folder.path.toLowerCase().contains(lowerCaseInputStr)) {
         folders.push(folder);
       }
     });
@@ -3180,7 +3468,7 @@ var DEFAULT_SETTINGS = {
   tresselAccessToken: "",
   syncFolder: "\u{1F5C3}\uFE0F Tressel"
 };
-var TresselPlugin = class extends import_obsidian3.Plugin {
+var TresselPlugin = class extends import_obsidian4.Plugin {
   constructor() {
     super(...arguments);
     this.verifyToken = (settingsTab) => __async(this, null, function* () {
@@ -3202,7 +3490,7 @@ var TresselPlugin = class extends import_obsidian3.Plugin {
         settingsTab.displaySettings();
       }
     });
-    this.debouncedVerifyToken = (0, import_obsidian3.debounce)(this.verifyToken, 500);
+    this.debouncedVerifyToken = (0, import_obsidian4.debounce)(this.verifyToken, 500);
   }
   onload() {
     return __async(this, null, function* () {
@@ -3226,7 +3514,7 @@ var TresselPlugin = class extends import_obsidian3.Plugin {
         if (this.tokenValid) {
           yield this.syncTressel(true);
         } else {
-          new import_obsidian3.Notice("Unable to sync from Tressel - Invalid Token provided");
+          new import_obsidian4.Notice("Unable to sync from Tressel - Invalid Token provided");
         }
       } catch (e) {
       }
@@ -3235,276 +3523,30 @@ var TresselPlugin = class extends import_obsidian3.Plugin {
   syncTressel(onload) {
     return __async(this, null, function* () {
       if (!onload) {
-        new import_obsidian3.Notice("Starting Tressel Sync");
+        new import_obsidian4.Notice("Starting Tressel Sync");
       }
       if (this.settings.tresselAccessToken !== "") {
         try {
           this.apiClient.updateClient(this.settings.tresselAccessToken);
-          const userData = yield (yield this.apiClient.syncObsidianUserData()).data;
-          if (userData.hasOwnProperty("message") && userData.message.includes("Error")) {
-            new import_obsidian3.Notice("Unable to sync from Tressel - Invalid Token provided");
-            return;
-          }
-          const tresselFolder = this.app.vault.getAbstractFileByPath(this.settings.syncFolder);
-          const tresselFolderExists = tresselFolder instanceof import_obsidian3.TFolder;
-          if (!tresselFolderExists) {
-            try {
-              this.app.vault.createFolder(this.settings.syncFolder).catch();
-              this.app.vault.createFolder(this.settings.syncFolder + "/Twitter").catch();
-              this.app.vault.createFolder(this.settings.syncFolder + "/Twitter/Tweets").catch();
-              this.app.vault.createFolder(this.settings.syncFolder + "/Twitter/Tweet Collections").catch();
-              this.app.vault.createFolder(this.settings.syncFolder + "/Reddit").catch();
-              this.app.vault.createFolder(this.settings.syncFolder + "/Reddit/Posts").catch();
-              this.app.vault.createFolder(this.settings.syncFolder + "/Reddit/Comments").catch();
-              this.app.vault.createFolder(this.settings.syncFolder + "/Kindle Highlights").catch();
-              this.app.vault.createFolder(this.settings.syncFolder + "/Highlights").catch();
-              this.app.vault.createFolder(this.settings.syncFolder + "/Pocket").catch();
-            } catch (error) {
-              console.error("Error while creating Tressel folder -", error);
+          let userData = {};
+          do {
+            userData = yield (yield this.apiClient.syncObsidianUserData()).data;
+            if (userData.hasOwnProperty("message") && userData.message.includes("Error")) {
+              new import_obsidian4.Notice("Unable to sync from Tressel - Invalid Token provided");
+              return;
             }
-          }
-          if (userData.hasOwnProperty("tweets") && userData.tweets.length !== 0) {
-            for (let tweet of userData.tweets) {
-              try {
-                let templateArray = [
-                  `# ${tweet.text.replace(/(\r\n|\n|\r)/gm, " ").slice(0, 50)}...`,
-                  `## Metadata`,
-                  `- Author: [${tweet.author.name}](https://twitter.com/${tweet.author.username})`,
-                  `- Type: \u{1F424} Tweet #tweet`,
-                  `- URL: ${tweet.url}
-`,
-                  `## Tweet`,
-                  `${tweet.text}
-`
-                ];
-                if (tweet.media) {
-                  for (let mediaEntity of tweet.media) {
-                    templateArray.push(`![](${mediaEntity.url})
-`);
-                  }
-                }
-                let template = templateArray.join("\n");
-                yield this.app.vault.create(this.settings.syncFolder + "/Twitter/Tweets/" + (0, import_sanitize_filename.default)(tweet.text.replace(/(\r\n|\n|\r)/gm, " ").replace("\n\n", " ").replace("\n\n\n", " ").slice(0, 50)) + ".md", template);
-              } catch (error) {
-                console.error(`Error syncing tweet ${tweet.url} -`, error);
-              }
-            }
-          }
-          if (userData.hasOwnProperty("tweetCollections") && userData.tweetCollections.length !== 0) {
-            for (let tweetCollection of userData.tweetCollections) {
-              if (tweetCollection.type === 1) {
-                try {
-                  let templateArray = [
-                    `# ${tweetCollection.tweets[0].text.replace(/(\r\n|\n|\r)/gm, " ").slice(0, 50)}...`,
-                    `## Metadata`,
-                    `- Author: [${tweetCollection.author.name}](https://twitter.com/${tweetCollection.author.username})`,
-                    `- Type: \u{1F9F5} Thread #thread`,
-                    `- URL: ${tweetCollection.url}
-`,
-                    `## Thread`
-                  ];
-                  for (let tweet of tweetCollection.tweets) {
-                    templateArray.push(`${tweet.text}
-`);
-                    if (tweet.media) {
-                      for (let mediaEntity of tweet.media) {
-                        templateArray.push(`![](${mediaEntity.url})
-`);
-                      }
-                    }
-                  }
-                  let template = templateArray.join("\n");
-                  yield this.app.vault.create(this.settings.syncFolder + "/Twitter/Tweet Collections/" + (0, import_sanitize_filename.default)(tweetCollection.tweets[0].text.replace(/(\r\n|\n|\r)/gm, " ").replace("\n\n", " ").replace("\n\n\n", " ").slice(0, 50)) + ".md", template);
-                } catch (error) {
-                  console.error(`Error syncing thread ${tweetCollection.url} -`, error);
-                }
-              } else if (tweetCollection.type === 2) {
-                try {
-                  let templateArray = [
-                    `# ${tweetCollection.tweets[0].text.replace(/(\r\n|\n|\r)/gm, " ").slice(0, 50)}...`,
-                    `## Metadata`,
-                    `- Author: [${tweetCollection.author.name}](https://twitter.com/${tweetCollection.author.username})`,
-                    `- Type: \u{1F4AC} Conversation #conversation`,
-                    `- URL: ${tweetCollection.url}
-`,
-                    `## Conversation`
-                  ];
-                  for (let tweet of tweetCollection.tweets) {
-                    templateArray.push(`**[${tweet.author.name} (@${tweet.author.username})](${tweet.author.url})**
-`);
-                    templateArray.push(`${tweet.text}
-`);
-                    if (tweet.media) {
-                      for (let mediaEntity of tweet.media) {
-                        templateArray.push(`![](${mediaEntity.url})
-`);
-                      }
-                    }
-                    templateArray.push(`---
-`);
-                  }
-                  let template = templateArray.join("\n");
-                  yield this.app.vault.create(this.settings.syncFolder + "/Twitter/Tweet Collections/" + (0, import_sanitize_filename.default)(tweetCollection.tweets[0].text.replace(/(\r\n|\n|\r)/gm, " ").replace("\n\n", " ").replace("\n\n\n", " ").slice(0, 50)) + ".md", template);
-                } catch (error) {
-                  console.error(`Error syncing conversation ${tweetCollection.url} -`, error);
-                }
-              }
-            }
-          }
-          if (userData.hasOwnProperty("redditComments") && userData.redditComments.length !== 0) {
-            for (let redditComment of userData.redditComments) {
-              try {
-                let templateArray = [
-                  `# ${redditComment.text.replace(/(\r\n|\n|\r)/gm, " ").slice(0, 50)}...`,
-                  `## Metadata`,
-                  `- Subreddit: [r/${redditComment.subreddit}](https://reddit.com/r/${redditComment.subreddit})`,
-                  `- Author: [u/${redditComment.author.username}](https://reddit.com/user/${redditComment.author.username})`,
-                  `- Type: \u{1F47E} Reddit Comment #reddit-comment`,
-                  `- URL: ${redditComment.url}
-`,
-                  `## Comment`,
-                  `${redditComment.text}
-`
-                ];
-                let template = templateArray.join("\n");
-                yield this.app.vault.create(this.settings.syncFolder + "/Reddit/Comments/" + (0, import_sanitize_filename.default)(redditComment.text.replace(/(\r\n|\n|\r)/gm, " ").replace("\n\n", " ").replace("\n\n\n", " ").slice(0, 50)) + ".md", template);
-              } catch (error) {
-                console.error(`Error syncing redditComment ${redditComment.url} -`, error);
-              }
-            }
-          }
-          if (userData.hasOwnProperty("redditPosts") && userData.redditPosts.length !== 0) {
-            for (let redditPost of userData.redditPosts) {
-              try {
-                let templateArray = [
-                  `# ${redditPost.title.replace(/(\r\n|\n|\r)/gm, " ")}`,
-                  `## Metadata`,
-                  `- Subreddit: [r/${redditPost.subreddit}](https://reddit.com/r/${redditPost.subreddit})`,
-                  `- Author: [u/${redditPost.author.username}](https://reddit.com/user/${redditPost.author.username})`,
-                  `- Type: \u{1F47E} Reddit Post #reddit-post`,
-                  `- URL: ${redditPost.url}
-`,
-                  `## Post`,
-                  `${redditPost.text ? redditPost.text + "\n" : ""}`
-                ];
-                if (redditPost.media) {
-                  for (let mediaEntity of redditPost.media) {
-                    if (mediaEntity.type === 1) {
-                      templateArray.push(`![](${mediaEntity.url})
-`);
-                    } else if (mediaEntity.type === 2) {
-                      templateArray.push(`[Video](${mediaEntity.url})
-`);
-                    }
-                  }
-                }
-                let template = templateArray.join("\n");
-                yield this.app.vault.create(this.settings.syncFolder + "/Reddit/Posts/" + (0, import_sanitize_filename.default)(redditPost.title.replace(/(\r\n|\n|\r)/gm, " ").replace("\n\n", " ").replace("\n\n\n", " ").slice(0, 50)) + ".md", template);
-              } catch (error) {
-                console.error(`Error syncing redditPost ${redditPost.url} -`, error);
-              }
-            }
-          }
-          if (userData.hasOwnProperty("kindleHighlights") && userData.kindleHighlights.length !== 0) {
-            for (let kindleHighlight of userData.kindleHighlights) {
-              try {
-                const bookPage = yield this.app.vault.getAbstractFileByPath(this.settings.syncFolder + "/Kindle Highlights/" + (0, import_sanitize_filename.default)(kindleHighlight.book.title.replace(/(\r\n|\n|\r)/gm, " ").replace("\n\n", " ").replace("\n\n\n", " ").slice(0, 50)) + ".md");
-                let updatedBookPage;
-                if (bookPage instanceof import_obsidian3.TFile) {
-                  updatedBookPage = bookPage;
-                } else {
-                  let templateArray = [
-                    `# ${kindleHighlight.book.title.replace(/(\r\n|\n|\r)/gm, " ")}`,
-                    `## Metadata`,
-                    `- Author: ${kindleHighlight.book.author}`,
-                    `- Type: \u{1F4D5} Kindle Highlight #kindle-highlight`,
-                    `- URL: ${kindleHighlight.book.url}
-`,
-                    `## Highlights`
-                  ];
-                  let template = templateArray.join("\n");
-                  try {
-                    updatedBookPage = yield this.app.vault.create(this.settings.syncFolder + "/Kindle Highlights/" + (0, import_sanitize_filename.default)(kindleHighlight.book.title.replace(/(\r\n|\n|\r)/gm, " ").replace("\n\n", " ").replace("\n\n\n", " ").slice(0, 50)) + ".md", template);
-                  } catch (error) {
-                    console.error(`Error syncing kindleHighlight ${kindleHighlight.url} -`, error);
-                  }
-                }
-                if (updatedBookPage) {
-                  let updatedBookContents = yield this.app.vault.read(updatedBookPage);
-                  updatedBookContents += `
-${kindleHighlight.text} - *Location: ${kindleHighlight.location}*
-`;
-                  yield this.app.vault.modify(updatedBookPage, updatedBookContents);
-                }
-              } catch (error) {
-                console.error(`Error syncing kindleHighlight ${kindleHighlight.url} -`, error);
-              }
-            }
-          }
-          if (userData.hasOwnProperty("genericHighlights") && userData.genericHighlights.length !== 0) {
-            for (let genericHighlight of userData.genericHighlights) {
-              try {
-                let templateArray = [
-                  `# ${genericHighlight.title.replace(/(\r\n|\n|\r)/gm, " ")}`,
-                  `## Metadata`,
-                  `- Type: \u{1F4AC} Highlight #highlight`,
-                  `- URL: ${genericHighlight.url}
-`,
-                  `## Highlight`,
-                  `${genericHighlight.text ? genericHighlight.text + "\n" : ""}`
-                ];
-                let template = templateArray.join("\n");
-                yield this.app.vault.create(this.settings.syncFolder + "/Highlights/" + (0, import_sanitize_filename.default)(genericHighlight.title.replace(/(\r\n|\n|\r)/gm, " ").replace("\n\n", " ").replace("\n\n\n", " ").slice(0, 50)) + ".md", template);
-              } catch (error) {
-                console.error(`Error syncing genericHighlight ${genericHighlight.url} -`, error);
-              }
-            }
-          }
-          if (userData.hasOwnProperty("pocketHighlights") && userData.pocketHighlights.length !== 0) {
-            for (let pocketHighlight of userData.pocketHighlights) {
-              try {
-                const articlePage = yield this.app.vault.getAbstractFileByPath(this.settings.syncFolder + "/Pocket/" + (0, import_sanitize_filename.default)(pocketHighlight.pocketArticle.title.replace(/(\r\n|\n|\r)/gm, " ").replace("\n\n", " ").replace("\n\n\n", " ").slice(0, 50)) + ".md");
-                let updatedArticlePage;
-                if (articlePage instanceof import_obsidian3.TFile) {
-                  updatedArticlePage = articlePage;
-                } else {
-                  let templateArray = [
-                    `# ${pocketHighlight.pocketArticle.title.replace(/(\r\n|\n|\r)/gm, " ")}`,
-                    `## Metadata`,
-                    `- Author: ${pocketHighlight.pocketArticle.author}`,
-                    `- Type: \u{1F4D1} Pocket Highlights #pocket-highlights`,
-                    `- URL: ${pocketHighlight.pocketArticle.url}
-`,
-                    `## Highlights`
-                  ];
-                  let template = templateArray.join("\n");
-                  try {
-                    updatedArticlePage = yield this.app.vault.create(this.settings.syncFolder + "/Pocket/" + (0, import_sanitize_filename.default)(pocketHighlight.pocketArticle.title.replace(/(\r\n|\n|\r)/gm, " ").replace("\n\n", " ").replace("\n\n\n", " ").slice(0, 50)) + ".md", template);
-                  } catch (error) {
-                    console.error(`Error syncing pocketHighlight ${pocketHighlight.pocketArticle.url} -`, error);
-                  }
-                }
-                if (updatedArticlePage) {
-                  let updatedArticleContents = yield this.app.vault.read(updatedArticlePage);
-                  updatedArticleContents += `
-${pocketHighlight.text}*
-`;
-                  yield this.app.vault.modify(updatedArticlePage, updatedArticleContents);
-                }
-              } catch (error) {
-                console.error(`Error syncing pocketHighlight ${pocketHighlight.pocketArticle.url} -`, error);
-              }
-            }
-          }
+            yield createTresselSyncFolder(this.app, this.settings);
+            yield syncTresselUserData(userData, this.app, this.settings);
+          } while (Object.keys(userData).length > 0);
         } catch (error) {
           console.error("Error while syncing from Tressel -", error);
-          new import_obsidian3.Notice("Error while syncing from Tressel - check the console for logs");
+          new import_obsidian4.Notice("Error while syncing from Tressel - check the console for logs");
         }
       } else {
-        new import_obsidian3.Notice("Unable to sync from Tressel - please fill out your Tressel user token before syncing");
+        new import_obsidian4.Notice("Unable to sync from Tressel - please fill out your Tressel user token before syncing");
       }
       if (!onload) {
-        new import_obsidian3.Notice("Finished Tressel Sync");
+        new import_obsidian4.Notice("Finished Tressel Sync");
       }
     });
   }
@@ -3521,7 +3563,7 @@ ${pocketHighlight.text}*
     });
   }
 };
-var TresselSettingTab = class extends import_obsidian3.PluginSettingTab {
+var TresselSettingTab = class extends import_obsidian4.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;
@@ -3530,7 +3572,7 @@ var TresselSettingTab = class extends import_obsidian3.PluginSettingTab {
     const { containerEl } = this;
     containerEl.empty();
     containerEl.createEl("h2", { text: "Tressel Settings" });
-    new import_obsidian3.Setting(containerEl).setName("Tressel User Token").setDesc("Get your unique token from the Obsidian/Access Token page in Tressel's integration settings").addText((text) => text.setPlaceholder("XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX").setValue(this.plugin.settings.tresselAccessToken).onChange((value) => __async(this, null, function* () {
+    new import_obsidian4.Setting(containerEl).setName("Tressel Access Token").setDesc("Get your unique access token from the Obsidian/Access Token page in Tressel's integration settings").addText((text) => text.setPlaceholder("XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX").setValue(this.plugin.settings.tresselAccessToken).onChange((value) => __async(this, null, function* () {
       this.plugin.settings.tresselAccessToken = value;
       this.plugin.debouncedVerifyToken(this);
       yield this.plugin.saveSettings();
@@ -3554,17 +3596,20 @@ var TresselSettingTab = class extends import_obsidian3.PluginSettingTab {
             id: "preferencesContainer"
           }
         });
-        this.loadPreferences();
+        yield this.loadPreferences();
+        settingsContainer.createEl("h3", { text: "Help & Support" });
+        settingsContainer.createDiv({
+          attr: {
+            id: "supportContainer"
+          }
+        });
+        yield this.loadSupport();
       } else {
         settingsContainer.createEl("p", {
-          text: "Invalid token - please enter the right token to sync your highlights from Tressel",
+          text: "Invalid token - please enter the right token to sync your highlights from Tressel. You can find your Tressel access token in the Tressel integration settings page",
           cls: "tressel-invalid-token-error"
         });
-        settingsContainer.createEl("p", {
-          text: "You can find your Tressel access token in the Tressel integration settings page",
-          cls: "tressel-invalid-token-error"
-        });
-        settingsContainer.createEl("button", { text: "Go to integration settings" }, (button) => {
+        settingsContainer.createEl("button", { text: "\u2699\uFE0F Go to integration settings" }, (button) => {
           button.onClickEvent((e) => {
             import_electron.shell.openExternal("https://app.tressel.xyz/settings/integrations/access-token");
           });
@@ -3577,23 +3622,43 @@ var TresselSettingTab = class extends import_obsidian3.PluginSettingTab {
       const { containerEl } = this;
       const preferencesContainer = containerEl.querySelector("#preferencesContainer");
       preferencesContainer.empty();
-      new import_obsidian3.Setting(preferencesContainer).setName("Clear Sync Memory").setDesc("Press this if you want to re-sync all your highlights from scratch (including ones already synced)").addButton((button) => {
-        button.setButtonText("Clear Sync Memory").onClick(() => {
-          new import_obsidian3.Notice("Clearing Obsidian sync memory...");
+      new import_obsidian4.Setting(preferencesContainer).setName("Clear Sync Memory").setDesc("Press this if you want to re-sync all your highlights from scratch (including ones already synced)").addButton((button) => {
+        button.setButtonText("\u2601\uFE0F Clear Sync Memory").onClick(() => {
+          new import_obsidian4.Notice("Clearing Obsidian sync memory...");
           this.plugin.apiClient.updateClient(this.plugin.settings.tresselAccessToken);
           this.plugin.apiClient.clearObsidianSyncMemory().then(() => {
-            new import_obsidian3.Notice("Successfully cleared Obsidian sync memory");
+            new import_obsidian4.Notice("Successfully cleared Obsidian sync memory");
           }).catch((error) => {
             console.error("Error clearing Obsidian sync memory - ", error);
-            new import_obsidian3.Notice("Error clearing Obsidian sync memory - check console for errors");
+            new import_obsidian4.Notice("Error clearing Obsidian sync memory - check console for errors");
           });
         });
       });
-      new import_obsidian3.Setting(preferencesContainer).setName("Folder Name").setDesc("Choose the folder you'd like your Tressel highlights to be stored in. If it doesn't exist, Tressel will automatically create it").addSearch((search) => {
+      new import_obsidian4.Setting(preferencesContainer).setName("Folder Name").setDesc("Choose the folder you'd like your Tressel highlights to be stored in. If it doesn't exist, Tressel will automatically create it").addSearch((search) => {
         new FolderSuggest(this.app, search.inputEl);
         search.setPlaceholder("Example: folder1/folder2").setValue(this.plugin.settings.syncFolder).onChange((newFolder) => {
           this.plugin.settings.syncFolder = newFolder;
           this.plugin.saveSettings();
+        });
+      });
+      preferencesContainer.createEl("button", { text: "\u{1F503} Resync" }, (button) => {
+        button.onClickEvent((e) => {
+          this.plugin.syncTressel(false);
+        });
+      });
+    });
+  }
+  loadSupport() {
+    return __async(this, null, function* () {
+      const { containerEl } = this;
+      const supportContainer = containerEl.querySelector("#supportContainer");
+      supportContainer.empty();
+      supportContainer.createEl("p", {
+        text: "Need help? Just email us at hello@tressel.xyz or go to the help center down below to submit a ticket or chat with us! Expect a response in 24-48hrs"
+      });
+      supportContainer.createEl("button", { text: "\u{1F517} Go to Help Center" }, (button) => {
+        button.onClickEvent((e) => {
+          import_electron.shell.openExternal("https://tressel.tawk.help/");
         });
       });
     });
