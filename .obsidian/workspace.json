@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "History.md",
+                "file": "Meditation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "History.md",
+                "file": "Meditation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "History.md",
+                "file": "Meditation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,6 +133,7 @@
   },
   "active": "d7b8087adee08453",
   "lastOpenFiles": [
+    "History.md",
     "Festivals.md",
     "Daily notes/2022-10-22.md",
     "People/Andrés Gómez Emilsson.md",
@@ -141,7 +142,6 @@
     "To do.md",
     "Daily notes/2022-10-02.md",
     "Daily notes/2022-09-28.md",
-    "Daily notes/2022-08-17.md",
-    "Daily notes/2022-07-27.md"
+    "Daily notes/2022-08-17.md"
   ]
 }
