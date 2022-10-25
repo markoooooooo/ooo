@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meditation.md",
+                "file": "Daily notes/2022-10-25.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meditation.md",
+                "file": "Daily notes/2022-10-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meditation.md",
+                "file": "Daily notes/2022-10-25.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,6 +133,7 @@
   },
   "active": "d7b8087adee08453",
   "lastOpenFiles": [
+    "Meditation.md",
     "History.md",
     "Festivals.md",
     "Daily notes/2022-10-22.md",
@@ -141,7 +142,6 @@
     "Untitled 1.md",
     "To do.md",
     "Daily notes/2022-10-02.md",
-    "Daily notes/2022-09-28.md",
-    "Daily notes/2022-08-17.md"
+    "Daily notes/2022-09-28.md"
   ]
 }
