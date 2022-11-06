@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/2022-11-03.md",
+                "file": "Daily notes/2022-11-06.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily notes/2022-11-03.md",
+                "file": "Daily notes/2022-11-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily notes/2022-11-03.md",
+                "file": "Daily notes/2022-11-06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,6 +144,7 @@
   },
   "active": "6f1dadbd64eac18a",
   "lastOpenFiles": [
+    "Daily notes/2022-11-03.md",
     "Daily notes/2022-10-26.md",
     "Daily notes/2022-10-25.md",
     "Meditation.md",
@@ -152,7 +153,6 @@
     "Daily notes/2022-10-22.md",
     "People/Andrés Gómez Emilsson.md",
     "Leigh Brasington & Andrés Gómez Emilsson on WystanTBS YouTube Channel.md",
-    "Untitled 1.md",
-    "To do.md"
+    "Untitled 1.md"
   ]
 }

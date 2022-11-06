@@ -5,7 +5,7 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 6009855,
+  "lastSavedStatusID": 6039498,
   "currentSyncStatusID": 0,
   "refreshBooks": true,
   "booksToRefresh": [],
@@ -57,7 +57,8 @@
     "Readwise/Books/The Flip.md": "19293416",
     "Readwise/Tweets/Tweets From Bayeslord.md": "19957840",
     "Readwise/Tweets/After a While Working Wi....md": "19957843",
-    "Readwise/Books/His Master's Voice.md": "19968969"
+    "Readwise/Books/His Master's Voice.md": "19968969",
+    "Readwise/Books/Blindsight.md": "20402528"
   },
   "reimportShowConfirmation": true
 }
