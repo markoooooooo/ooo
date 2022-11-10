@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d7b8087adee08453",
+            "id": "6f1dadbd64eac18a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/2022-10-25.md",
+                "file": "Daily notes/2022-11-10.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "6f1dadbd64eac18a",
+            "id": "12a37de42c921604",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/2022-11-06.md",
+                "file": "Possessions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily notes/2022-11-06.md",
+                "file": "Possessions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily notes/2022-11-06.md",
+                "file": "Possessions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,8 +142,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6f1dadbd64eac18a",
+  "active": "12a37de42c921604",
   "lastOpenFiles": [
+    "Daily notes/2022-11-10.md",
+    "Daily notes/2022-11-06.md",
     "Daily notes/2022-11-03.md",
     "Daily notes/2022-10-26.md",
     "Daily notes/2022-10-25.md",
@@ -151,8 +153,6 @@
     "History.md",
     "Festivals.md",
     "Daily notes/2022-10-22.md",
-    "People/Andrés Gómez Emilsson.md",
-    "Leigh Brasington & Andrés Gómez Emilsson on WystanTBS YouTube Channel.md",
-    "Untitled 1.md"
+    "People/Andrés Gómez Emilsson.md"
   ]
 }
