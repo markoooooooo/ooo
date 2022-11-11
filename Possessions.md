@@ -1,6 +1,59 @@
-
-- Pioneer DDJ-FLX4
-- Apple MacBook
-- Apple iPad Air
-- Apple AirPods Pro
-- Snow Peak 450ml mug
+- Tech
+	- phone
+		- case
+	- tracking tags
+	- backup phone
+	- laptop
+		- charger
+		- charging cable
+	- roost stand
+		- case
+	- keyboard
+	- power plug adapter
+	- power plug
+	- mice
+	- audio recorder
+	- microphone
+	- storage
+	- tablet
+	- DJ mixer
+	- electric toothbrush
+		- case
+		- head
+		- backup heads
+	- pad
+	- headphones
+		- cable
+	- op 1 field
+		- case
+		- cable
+	- earbuds
+		- earbud case
+- Film
+	- leica
+		- light meter
+		- 
+	- contax
+	- olympus
+	- hasselblad
+	- accessories
+- Clothes
+	- tops
+	- bottoms
+		- underwear
+	- sport
+	- accessories
+		- hat
+		- sunglasses
+		- belt
+- Other
+	- mug
+	- chopsticks
+	- fork
+	- knife
+	- ear plugs
+		- party
+		- sleep
+		- airplane
+	- keys
+	- 
