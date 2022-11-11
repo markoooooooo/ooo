@@ -1,20 +1,31 @@
 - Tech
 	- phone
 		- case
+		- cable
+		- charger
 	- tracking tags
 	- backup phone
+		- case
 	- laptop
 		- charger
 		- charging cable
 	- roost stand
 		- case
 	- keyboard
+	- smart watch
+		- charging cable
 	- power plug adapter
 	- power plug
 	- mice
 	- audio recorder
+		- micro dot adapter
+		- micro dot adapter
 	- microphone
 	- storage
+		- sdd 1tb
+		- sdd 2tb
+		- sdd 4tb
+		- micro sd
 	- tablet
 	- DJ mixer
 	- electric toothbrush
@@ -32,28 +43,64 @@
 - Film
 	- leica
 		- light meter
-		- 
+		- motor
+		- flash
+		- strap
+		- strap case
+		- lens cap
 	- contax
+		- flash
+		- external bracket
 	- olympus
 	- hasselblad
+		- flash
+		- extra film back
+		- light meter
+		- range finder
 	- accessories
+		- cleaning pen
+		- cleaning wipes
+		- cleaning blower
 - Clothes
+	- outerwear
+		- jacket
 	- tops
+		- short sleeve
+		- long sleeve
 	- bottoms
+		- shorts
+		- pants
+		- tights
 		- underwear
 	- sport
 	- accessories
 		- hat
 		- sunglasses
 		- belt
+		- socks
+		- bracelet
+		- necklace
+- Bags
+	- backpack
+	- sling
+	- pouch
+	- tote
+	- suitcase
 - Other
-	- mug
-	- chopsticks
-	- fork
-	- knife
+	- utensils
+		- mug
+		- chopsticks
+		- fork
+		- knife
 	- ear plugs
 		- party
 		- sleep
 		- airplane
 	- keys
-	- 
+	- coffee setup
+		- grinder
+			- case
+		- grinder cleaner
+		- v60 dripper
+		- v60 filters
+		- pocket scale
