@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Possessions.md",
+                "file": "Daily notes/2022-11-12.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Possessions.md",
+                "file": "Daily notes/2022-11-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Possessions.md",
+                "file": "Daily notes/2022-11-12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,10 +170,10 @@
   },
   "active": "98a95ea79b409727",
   "lastOpenFiles": [
+    "Possessions.md",
     "Shows.md",
     "Enlightenment.md",
     "Daily notes/2022-11-10.md",
-    "Possessions.md",
     "Daily notes/2022-11-06.md",
     "Daily notes/2022-11-03.md",
     "Daily notes/2022-10-26.md",
