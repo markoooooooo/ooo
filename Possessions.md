@@ -74,7 +74,9 @@
 		- underwear
 	- sport
 	- accessories
-		- hat
+		- hats
+			- cap
+			- sunhat
 		- sunglasses
 		- belt
 		- socks
