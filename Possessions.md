@@ -1,4 +1,4 @@
-d- Tech
+- Tech
 	- phone
 		- case
 		- cable
@@ -82,10 +82,13 @@ d- Tech
 		- necklace
 - Bags
 	- backpack
+	- daypack
 	- sling
-	- pouch
+	- fannypack
 	- tote
 	- suitcase
+	- sportsbag
+	- duffel
 - Other
 	- utensils
 		- mug
