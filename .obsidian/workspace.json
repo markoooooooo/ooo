@@ -4,63 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "395260309a1d64a6",
+        "id": "875e2194ff973bab",
         "type": "tabs",
         "children": [
           {
-            "id": "6f1dadbd64eac18a",
+            "id": "2fbc36483b410507",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/2022-11-10.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "074dbefd9d28019d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Enlightenment.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "98a95ea79b409727",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Possessions.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "12a37de42c921604",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Possessions.md",
+                "file": "Daily notes/2022-11-13.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Possessions.md",
+                "file": "Daily notes/2022-11-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Possessions.md",
+                "file": "Daily notes/2022-11-13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "98a95ea79b409727",
+  "active": "2fbc36483b410507",
   "lastOpenFiles": [
+    "Gear.md",
+    "Daily notes/2022-11-13.md",
     "Daily notes/2022-11-12.md",
-    "Possessions.md",
-    "Shows.md",
+    "Untitled 1.md",
+    "Untitled 2.md",
     "Enlightenment.md",
     "Daily notes/2022-11-10.md",
+    "Shows.md",
     "Daily notes/2022-11-06.md",
-    "Daily notes/2022-11-03.md",
-    "Daily notes/2022-10-26.md",
-    "Daily notes/2022-10-25.md",
-    "Meditation.md"
+    "Daily notes/2022-11-03.md"
   ]
 }

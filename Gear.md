@@ -91,6 +91,7 @@
 - Bags
 	- backpack
 	- daypack
+	- running belt
 	- sling
 	- fannypack
 	- tote
