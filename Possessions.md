@@ -74,6 +74,8 @@
 		- underwear
 	- sport
 		- massage ball
+		- roller
+		- gua sha
 		- rope
 		- clothes
 		- 
