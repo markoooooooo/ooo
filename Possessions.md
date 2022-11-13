@@ -73,6 +73,10 @@
 		- tights
 		- underwear
 	- sport
+		- massage ball
+		- rope
+		- clothes
+		- 
 	- accessories
 		- hats
 			- cap
