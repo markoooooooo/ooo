@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/2022-11-13.md",
+                "file": "Daily notes/2022-11-14.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily notes/2022-11-13.md",
+                "file": "Daily notes/2022-11-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily notes/2022-11-13.md",
+                "file": "Daily notes/2022-11-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,8 +130,8 @@
   },
   "active": "2fbc36483b410507",
   "lastOpenFiles": [
-    "Gear.md",
     "Daily notes/2022-11-13.md",
+    "Gear.md",
     "Daily notes/2022-11-12.md",
     "Untitled 1.md",
     "Untitled 2.md",
