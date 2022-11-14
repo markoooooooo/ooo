@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readwise/Tweets/Tweets From Zerohedge.md",
+                "file": "Daily notes/2022-07-27.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readwise/Tweets/Tweets From Zerohedge.md",
+                "file": "Daily notes/2022-07-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readwise/Tweets/Tweets From Zerohedge.md",
+                "file": "Daily notes/2022-07-27.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Daily notes/2022-07-27.md"
+              }
             }
           }
         ],
@@ -138,15 +140,15 @@
   },
   "active": "2fbc36483b410507",
   "lastOpenFiles": [
-    "Templates/Template for Daily notes.md",
-    "Readwise/Tweets/Tweets From Zerohedge.md",
-    "Readwise/Books/The Book.md",
-    "Daily notes/2022-11-14.md",
-    "Daily notes/2022-11-13.md",
-    "Gear.md",
-    "Daily notes/2022-11-12.md",
-    "Untitled 1.md",
-    "Untitled 2.md",
-    "Enlightenment.md"
+    "Daily notes/2022-07-19.md",
+    "Daily notes/2022-07-05.md",
+    "Daily notes/2022-07-06.md",
+    "Daily notes/2022-07-07.md",
+    "Daily notes/2022-07-08.md",
+    "Daily notes/2022-07-11.md",
+    "Daily notes/2022-07-23.md",
+    "Daily notes/2022-08-17.md",
+    "Daily notes/2022-09-28.md",
+    "Daily notes/2022-10-22.md"
   ]
 }
