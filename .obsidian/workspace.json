@@ -119,6 +119,14 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "ea951b5e141afd53",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
           }
         ],
         "currentTab": 3
@@ -130,6 +138,8 @@
   },
   "active": "2fbc36483b410507",
   "lastOpenFiles": [
+    "Templates/Template for Daily notes.md",
+    "Readwise/Tweets/Tweets From Zerohedge.md",
     "Readwise/Books/The Book.md",
     "Daily notes/2022-11-14.md",
     "Daily notes/2022-11-13.md",
@@ -137,8 +147,6 @@
     "Daily notes/2022-11-12.md",
     "Untitled 1.md",
     "Untitled 2.md",
-    "Enlightenment.md",
-    "Daily notes/2022-11-10.md",
-    "Shows.md"
+    "Enlightenment.md"
   ]
 }
