@@ -4,5 +4,7 @@
   "obsidian-git",
   "templater-obsidian",
   "calendar",
-  "dataview"
+  "dataview",
+  "obsidian-kindle-plugin",
+  "obsidian-tressel"
 ]
