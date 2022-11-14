@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/2022-11-14.md",
+                "file": "Readwise/Tweets/Tweets From Zerohedge.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily notes/2022-11-14.md",
+                "file": "Readwise/Tweets/Tweets From Zerohedge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily notes/2022-11-14.md",
+                "file": "Readwise/Tweets/Tweets From Zerohedge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,6 +130,8 @@
   },
   "active": "2fbc36483b410507",
   "lastOpenFiles": [
+    "Readwise/Books/The Book.md",
+    "Daily notes/2022-11-14.md",
     "Daily notes/2022-11-13.md",
     "Gear.md",
     "Daily notes/2022-11-12.md",
@@ -137,8 +139,6 @@
     "Untitled 2.md",
     "Enlightenment.md",
     "Daily notes/2022-11-10.md",
-    "Shows.md",
-    "Daily notes/2022-11-06.md",
-    "Daily notes/2022-11-03.md"
+    "Shows.md"
   ]
 }
