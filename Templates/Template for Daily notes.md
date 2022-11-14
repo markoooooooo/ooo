@@ -1,6 +1,6 @@
 *{{date:dddd}} the {{date:Do}} of {{date:MMMM}}, {{date:YYYY}}*
 ***
-
+<% tp.file.cursor() %>
 
 ***
 See this page on [GitHub](https://github.com/markoooooooo/ooo/blob/main/Daily%20notes/{{title}}.md)

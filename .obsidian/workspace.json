@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily notes/2022-11-14.md",
+                "file": "Daily notes/2022/November/14-11-2022.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily notes/2022-11-14.md",
+                "file": "Daily notes/2022/November/14-11-2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily notes/2022-11-14.md",
+                "file": "Daily notes/2022/November/14-11-2022.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily notes/2022-11-14.md"
+                "file": "Daily notes/2022/November/14-11-2022.md"
               }
             }
           }
@@ -140,15 +140,15 @@
   },
   "active": "2fbc36483b410507",
   "lastOpenFiles": [
-    "Templates/Template for Daily notes.md",
-    "Daily notes/2022-11-14.md",
-    "Welcome.md",
-    "Daily notes/2022-07-27.md",
+    "Daily notes/2022-11-13.md",
     "Daily notes/2022-07-19.md",
-    "Daily notes/2022-07-05.md",
-    "Daily notes/2022-07-06.md",
-    "Daily notes/2022-07-07.md",
-    "Daily notes/2022-07-08.md",
-    "Daily notes/2022-07-11.md"
+    "Daily notes/2022-07-27.md",
+    "Daily notes/2022-10-25.md",
+    "Daily notes/2022-11-06.md",
+    "Daily notes/2022-11-10.md",
+    "Supplements.md",
+    "To do.md",
+    "Travel Hacks.md",
+    "Daily notes/2022/11/14.md"
   ]
 }
