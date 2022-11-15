@@ -16,4 +16,5 @@
 - Creative output
 - Sunshine
 - Cold exposure
-- 
+- Nutrition
+	- 200g protein
