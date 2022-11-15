@@ -1,0 +1,19 @@
+- Meditation
+- Writing
+- Reading
+- Running
+- Sauna
+- Bodyweight exercises
+- Sleep
+- Oral/dental hygiene
+- Microdosing
+- Walking
+- Yoga
+- BJJ
+- Hydration
+- Supplements
+- Improv
+- Creative output
+- Sunshine
+- Cold exposure
+- 

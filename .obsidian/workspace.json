@@ -27,9 +27,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "77b7b8b183fa2112",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Habits.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "People.md",
+                "file": "Daily Habits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "People.md",
+                "file": "Daily Habits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "People.md"
+                "file": "Daily Habits.md"
               }
             }
           }
@@ -147,8 +160,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0e740f8382298480",
+  "active": "77b7b8b183fa2112",
   "lastOpenFiles": [
+    "People.md",
     "Gear.md",
     "Gear list.md",
     "Readwise/Books/The Science of Enlightenment.md",
@@ -157,7 +171,6 @@
     "Kindle/Crowley-Shulgin-Secret Drugs of Buddhism.md",
     "Danaher on Gi vs No-Gi.md",
     "Kindle/Dostoevsky-Ready-Crime and Punishment.md",
-    "Kindle/Hamid-How to Get Filthy Rich In Rising Asia.md",
-    "Kindle/Malice_et_al-The Anarchist Handbook.md"
+    "Kindle/Hamid-How to Get Filthy Rich In Rising Asia.md"
   ]
 }

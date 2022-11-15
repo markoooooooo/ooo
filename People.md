@@ -30,6 +30,8 @@ Eckhart Tolle
 	- Hans-Hermann Hoppe
 	- Walter Block
 	- Lysander Spooner
+	- Tom Woods
+	- Robert Nozick
 - Art
 - Music
 
