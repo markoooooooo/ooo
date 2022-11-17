@@ -2,6 +2,30 @@
 - Writing
 - Reading
 - Running
+- Exercise
+	- Push up
+	- Squat
+	- Horse stance
+	- Low squat, maintain, arms raised
+	- Squat jump
+	- Hanging
+	- Pull up
+	- Plank
+	- Handstand, inversion, maintain it
+- Breathwork
+- Stretching
+- Yoga
+- Fascia rolling
+- Steve Maxwell daily exercises
+- Body brushing
+- Tongue scraping
+- Apply moisturizer
+- Apply face cream
+- Meditation
+	- Metta
+	- Insight
+	- Concentration
+- 
 - Sauna
 - Bodyweight exercises
 - Sleep

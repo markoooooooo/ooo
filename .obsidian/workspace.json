@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Understanding the Categories of Insight, with Daniel Ingram.md",
+                "file": "Daily Habits.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Understanding the Categories of Insight, with Daniel Ingram.md",
+                "file": "Daily Habits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Understanding the Categories of Insight, with Daniel Ingram.md",
+                "file": "Daily Habits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Understanding the Categories of Insight, with Daniel Ingram.md"
+                "file": "Daily Habits.md"
               }
             }
           }
@@ -175,6 +175,7 @@
   },
   "active": "3e503082eb193970",
   "lastOpenFiles": [
+    "Understanding the Categories of Insight, with Daniel Ingram.md",
     "Daily notes/2022/November/17-11-2022.md",
     "Daily Habits.md",
     "People.md",
@@ -183,7 +184,6 @@
     "Readwise/Books/The Science of Enlightenment.md",
     "Shinzen Young.md",
     "Kindle/Young-The Science of Enlightenment.md",
-    "Kindle/Crowley-Shulgin-Secret Drugs of Buddhism.md",
-    "Danaher on Gi vs No-Gi.md"
+    "Kindle/Crowley-Shulgin-Secret Drugs of Buddhism.md"
   ]
 }
