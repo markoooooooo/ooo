@@ -8,54 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2fbc36483b410507",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "0e740f8382298480",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "People.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "77b7b8b183fa2112",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily notes/2022/November/17-11-2022.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3e503082eb193970",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Habits.md",
+                "file": "Understanding the Categories of Insight, with Daniel Ingram.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Habits.md",
+                "file": "Understanding the Categories of Insight, with Daniel Ingram.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Habits.md",
+                "file": "Understanding the Categories of Insight, with Daniel Ingram.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Habits.md"
+                "file": "Understanding the Categories of Insight, with Daniel Ingram.md"
               }
             }
           }
@@ -175,15 +140,15 @@
   },
   "active": "3e503082eb193970",
   "lastOpenFiles": [
-    "Understanding the Categories of Insight, with Daniel Ingram.md",
-    "Daily notes/2022/November/17-11-2022.md",
+    "Welcome.md",
+    "Valence Structuralism.md",
     "Daily Habits.md",
     "People.md",
+    "Daily notes/2022/November/17-11-2022.md",
+    "Daily notes/2022/November/14-11-2022.md",
+    "Templates/Template for Daily notes.md",
+    "Understanding the Categories of Insight, with Daniel Ingram.md",
     "Gear.md",
-    "Gear list.md",
-    "Readwise/Books/The Science of Enlightenment.md",
-    "Shinzen Young.md",
-    "Kindle/Young-The Science of Enlightenment.md",
-    "Kindle/Crowley-Shulgin-Secret Drugs of Buddhism.md"
+    "Gear list.md"
   ]
 }

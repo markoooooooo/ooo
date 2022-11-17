@@ -12,6 +12,7 @@
 	- Pull up
 	- Plank
 	- Handstand, inversion, maintain it
+	- Test
 - Breathwork
 - Stretching
 - Yoga
