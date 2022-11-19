@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "875e2194ff973bab",
+        "id": "126cc098158b1a65",
         "type": "tabs",
         "children": [
           {
-            "id": "3e503082eb193970",
+            "id": "bef2119610e53999",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily notes/2022/November/17-11-2022.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily notes/2022/November/17-11-2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily notes/2022/November/17-11-2022.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Daily notes/2022/November/17-11-2022.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -138,14 +129,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3e503082eb193970",
+  "active": "bef2119610e53999",
   "lastOpenFiles": [
+    "Daily notes/2022/November/17-11-2022.md",
     "Understanding the Categories of Insight, with Daniel Ingram.md",
     "Welcome.md",
     "Valence Structuralism.md",
     "Daily Habits.md",
     "People.md",
-    "Daily notes/2022/November/17-11-2022.md",
     "Daily notes/2022/November/14-11-2022.md",
     "Templates/Template for Daily notes.md",
     "Gear.md",
