@@ -1,3 +1,4 @@
-Glossary
-Archive based on years, months, days?
-Journal?
+1. Glossary
+2. Archive based on years, months, days?
+3. Journal?
+4. 
