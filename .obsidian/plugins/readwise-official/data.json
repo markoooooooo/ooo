@@ -5,7 +5,7 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 6179686,
+  "lastSavedStatusID": 6189142,
   "currentSyncStatusID": 0,
   "refreshBooks": true,
   "booksToRefresh": [],
@@ -141,7 +141,10 @@
     "Readwise/Books/In the Dark Places of Wisdom.md": "20728226",
     "Readwise/Books/Breaking Open the Head.md": "20728220",
     "Readwise/Books/Breaking Open.md": "20728212",
-    "Readwise/Books/Being You.md": "20819195"
+    "Readwise/Books/Being You.md": "20819195",
+    "Readwise/Books/The Superhumanities.md": "20950978",
+    "Readwise/Books/Trauma-Sensitive Mindfulness.md": "20950974",
+    "Readwise/Books/Cosmic Trigger I.md": "20950967"
   },
   "reimportShowConfirmation": true
 }

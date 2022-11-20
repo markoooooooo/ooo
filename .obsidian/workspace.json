@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To do.md",
+                "file": "Notes/Daily notes/2022/November/20-11-2022.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To do.md",
+                "file": "Notes/Daily notes/2022/November/20-11-2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To do.md",
+                "file": "Notes/Daily notes/2022/November/20-11-2022.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To do.md"
+                "file": "Notes/Daily notes/2022/November/20-11-2022.md"
               }
             }
           }
@@ -154,6 +154,7 @@
   },
   "active": "268710fb3f21f583",
   "lastOpenFiles": [
+    "To do.md",
     "Notes/Daily notes/2022/November/19-11-2022.md",
     "Notes/Templates/Template for Daily notes.md",
     "Notes/Daily notes/2022-11-13.md",
@@ -162,7 +163,6 @@
     "Daily notes/2022/November/17-11-2022.md",
     "Notes/Daily notes/2022-11-10.md",
     "Untitled 1.md",
-    "202211191401.md",
-    "Untitled.md"
+    "202211191401.md"
   ]
 }
