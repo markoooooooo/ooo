@@ -8,6 +8,9 @@ Roger Thisdell
 Frank Yang
 Lucas Perry
 Bronze Age Pervert
+Joscha Bach
+Donald Hoffman
+
 Owen Cook
 Michael Taft
 Stanislaw Lem

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "202211191401.md",
+                "file": "People.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -35,8 +35,7 @@
               "pinned": true
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -55,7 +54,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabeticalReverse"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "People.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "People.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "People.md"
               }
             }
           }
@@ -154,8 +153,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "268710fb3f21f583",
+  "active": "bef2119610e53999",
   "lastOpenFiles": [
+    "Welcome.md",
     "Daily Habits.md",
     "Notes/Daily notes/2022/November/23-11-2022.md",
     "Notes/Daily notes/2022/November/20-11-2022.md",
@@ -164,7 +164,6 @@
     "Notes/Templates/Template for Daily notes.md",
     "Notes/Daily notes/2022-11-13.md",
     "Notes/Templates/Template for Unique notes.md",
-    "Daily notes/2022/November/19-11-2022.md",
-    "Daily notes/2022/November/17-11-2022.md"
+    "Daily notes/2022/November/19-11-2022.md"
   ]
 }
