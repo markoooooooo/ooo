@@ -2,12 +2,21 @@
 - Writing
 - Reading
 - Running
+- Posture excercises
 - Exercise
 	- Push up
 	- Squat
 	- Horse stance
 	- Low squat, maintain, arms raised
 	- Squat jump
+	- Baithak
+	- Crab press
+	- Plank
+	- Pike push up
+	- Toe squat
+	- Sissy squat
+	- Single leg squat
+	- Overhead deadlift
 	- Hanging
 	- Pull up
 	- Plank
