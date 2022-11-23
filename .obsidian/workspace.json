@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "992cd72874bc8364",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Solaris.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "268710fb3f21f583",
             "type": "leaf",
             "pinned": true,
@@ -35,7 +48,8 @@
               "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "People.md",
+                "file": "Solaris.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "People.md",
+                "file": "Solaris.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "People.md"
+                "file": "Solaris.md"
               }
             }
           }
@@ -153,8 +167,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "bef2119610e53999",
+  "active": "992cd72874bc8364",
   "lastOpenFiles": [
+    "People.md",
     "Welcome.md",
     "Daily Habits.md",
     "Notes/Daily notes/2022/November/23-11-2022.md",
@@ -163,7 +178,6 @@
     "Notes/Daily notes/2022/November/19-11-2022.md",
     "Notes/Templates/Template for Daily notes.md",
     "Notes/Daily notes/2022-11-13.md",
-    "Notes/Templates/Template for Unique notes.md",
-    "Daily notes/2022/November/19-11-2022.md"
+    "Notes/Templates/Template for Unique notes.md"
   ]
 }
